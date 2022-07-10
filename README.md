@@ -8,7 +8,7 @@ In many of the following computational and estimation problems due to possibly l
 
 ## References
 
-Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
+- Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
 
 # [2]. Principal Component Analysis and Dimensionality Reduction
 
