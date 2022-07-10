@@ -14,6 +14,11 @@ In many of the following computational and estimation problems due to possibly l
 
 # [3]. Iterative Simulation and Estimation Methodologies
 
+
+### References
+
+Wu, C. F. J. (1983). On the convergence properties of the em algorithm. The Annals of Statistics 11, 95{103.
+
 # Further Reading
 
 - Abadir, K. M., & Magnus, J. R. (2005). Matrix algebra (Vol. 1). Cambridge University Press.
