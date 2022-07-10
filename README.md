@@ -19,7 +19,7 @@ In many of the following computational and estimation problems due to possibly l
 # [B]. Iterative Simulation and Estimation Methodologies
 
 
-### References
+## References
 
 - Andrews, D. W., & Lu, B. (2001). Consistent model and moment selection procedures for GMM estimation with application to dynamic panel data models. Journal of econometrics, 101(1), 123-164.
 - Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
