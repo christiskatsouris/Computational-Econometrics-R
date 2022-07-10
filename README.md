@@ -29,10 +29,8 @@ In many of the following computational and estimation problems due to possibly l
 
 [1] Abadir, K. M., & Magnus, J. R. (2005). Matrix algebra (Vol. 1). Cambridge University Press.
 
-[2] Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press. 
+[2] Hayashi, F. (2011). Econometrics. Princeton University Press.
 
-[3] Hayashi, F. (2011). Econometrics. Princeton University Press.
+[3] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge university press.
 
-[4] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge university press.
-
-
+[4] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
