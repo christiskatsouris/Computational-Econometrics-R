@@ -18,6 +18,17 @@ In many of the following computational and estimation problems due to possibly l
 
 # [B]. Iterative Simulation and Estimation Methodologies
 
+## [B1.] Minimum Distance Estimation Method
+
+
+
+
+
+## References
+
+- Wolfowitz, J. (1957). The minimum distance method. The Annals of Mathematical Statistics, 75-88.
+- Phillips, P. C. B. (1976). The iterated minimum distance estimator and the quasi-maximum likelihood estimator. Econometrica: Journal of the Econometric Society, 449-460.
+
 
 ## References
 
