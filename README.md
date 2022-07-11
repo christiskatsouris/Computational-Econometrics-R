@@ -29,6 +29,8 @@ $$y_t = g_t ( b_0 ) + u_t, \ \ \ \ \ \ \ \ \  t = 1,2,...$$
 
 where the response variable yt is an ( m x 1) vector of observable random functions of discrete time and gt is a vector of known functions which depend on a (p x 1) vector of unknown parameters whose true value is denoted by $b0$. In general, gt if a function of a number of exogenous variables as well as b0 so that the function is time dependent. The last component of the model is the vector ut of additive stochastic disturbances. In this case, an appropriate estimation methodology is to employ the iterated minimum distance estimator (MDE). Furthermore, it has been proved by  Phillips (1976) that there is an equivalent relation between the MDE estimator and the quasi-maximum likelihood (QML) estimator when the model disturbances are serially independent.  
 
+Therefore, we consider any vector g ( n ) in which minimizes the following quadratic form 
+$$ R_T( \alpha ) = T^{-1} \sum_{t=1}^T \left( y_T - g_t (\alpha) \right)^{\prime} S \left( y_T - g_t (\alpha) \right),$$
 
 
 ## References
