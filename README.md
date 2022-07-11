@@ -33,7 +33,7 @@ Therefore, we consider any vector g ( T ) in which minimizes the following quadr
 $$ R_T( \alpha ) = T^{-1} \sum_{t=1}^T \left( y_T - g_t (\alpha) \right)^{\prime} S \left( y_T - g_t (\alpha) \right),$$
 
 given the observations ( yt : t = 1,...,T ) and some positive definite matrix S, the above expression is called a MDE of b0. Then, concentrating the likelihood function with respect to b, we find that bT (S) minimizes the following expression
-$$\text{log det} \ \left\{ T^{-1} \sum_{t=1}^T \left( y_T - g_t (\alpha) \right)^{\prime} \left( y_T - g_t (\alpha) \right) \right\}.$$
+$$\text{log det} \ \left( T^{-1} \sum_{t=1}^T \left( y_T - g_t (\alpha) \right)^{\prime} \left( y_T - g_t (\alpha) \right) \right).$$
 
 
 ## References
