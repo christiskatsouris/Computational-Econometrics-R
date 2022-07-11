@@ -85,13 +85,16 @@ rho2      <- MDE2stageResult$rhohat2stage
 
 
 ```
-
-
 ## References
 
 - Wolfowitz, J. (1957). The minimum distance method. The Annals of Mathematical Statistics, 75-88.
 - Phillips, P. C. B. (1976). The iterated minimum distance estimator and the quasi-maximum likelihood estimator. Econometrica: Journal of the Econometric Society, 449-460.
 - Koul, H. L. (1986). Minimum distance estimation and goodness-of-fit tests in first-order autoregression. The Annals of Statistics, 1194-1213.
+
+
+## [B2.] Generalized Method of Moments (GMM)
+
+## Example 2
 
 
 ## References
