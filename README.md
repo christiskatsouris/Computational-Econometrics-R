@@ -50,7 +50,7 @@ p <- 3
 ## Generate n-by-p design matrix X
 X <- matrix(runif(n*p, 0,50), nrow=n, ncol=p)  
 
- ## Generate true model parameters
+## Generate true model parameters
 beta <- c(-2, 0.3, 1.5)                      
 rho  <- 0.4                                   
 eps  <- vector(length=n)
@@ -63,7 +63,7 @@ for(i in 1:n)
 }
 Y <- X\%*\%beta + eps
 
- ## Use the default weight matrix
+## Use the default weight matrix
 D <- "default"  
 
 ## Set initial value for beta
