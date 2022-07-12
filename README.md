@@ -25,17 +25,17 @@ In many of the following computational and estimation problems due to possibly l
 ## [B1.] Minimum Distance Estimation Method
 
 A particular class of econometric models has parameters which are time-varying. For example, consider the case when evaluating the portfolio performance within an out-of-sample framework in which case one has to estimate the covariance matrix in each moving window. Then, a suitable econometric model to capture these time-varying moment conditions is given by 
-$$y_t = g_t ( b_0 ) + u_t, \ \ \ \ \ \ \ \ \  t = 1,2,...,T$$
+$$y_t = g_t ( b_0 ) + u_t, \ \ \ \ \ \ \ \ \  t = 1,2,...,n$$
 
 where the response variable yt is an ( m x 1) vector of observable random functions of discrete time and gt is a vector of known functions which depend on a (p x 1) vector of unknown parameters whose true value is denoted by $b0$. In general, gt if a function of a number of exogenous variables as well as b0 so that the function is time dependent. The last component of the model is the vector ut of additive stochastic disturbances. In this case, an appropriate estimation methodology is to employ the iterated minimum distance estimator (MDE). Furthermore, it has been proved by  Phillips (1976) that there is an equivalent relation between the MDE estimator and the quasi-maximum likelihood (QML) estimator when the model disturbances are serially independent.  
 
-Therefore, we consider any vector g ( T ) in which minimizes the following quadratic form 
+Therefore, we consider any vector g ( n ) in which minimizes the following quadratic form 
 
-$$ R_T( b ) = T^{-1} \sum_{t=1}^T ( y_T - g_t (b) )^{\prime} S ( y_T - g_t (b) )$$
+$$ R_n( b ) = n^{-1} \sum_{t=1}^n ( y_n - g_t (b) )^{\prime} S ( y_n - g_t (b) )$$
 
-given the observations ( yt : t = 1,...,T ) and some positive definite matrix S, the above expression is called a MDE of b0. Then, concentrating the likelihood function with respect to b, we find that bT (S) minimizes the following expression
+given the observations ( yt : t = 1,...,n ) and some positive definite matrix S, the above expression is called a MDE of b0. Then, concentrating the likelihood function with respect to b, we find that bn (S) minimizes the following expression
 
-$$\text{log det} \ \left( T^{-1} \sum_{t=1}^T \left( y_T - g_t (b) \right)^{\prime} \left( y_T - g_t (b) \right) \right).$$
+$$\text{log det} \ \left( n^{-1} \sum_{t=1}^n \left( y_n - g_t (b) \right)^{\prime} \left( y_n - g_t (b) \right) \right).$$
 
 ## Example 1
 
