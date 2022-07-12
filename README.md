@@ -4,7 +4,9 @@ A light tutotial page on various aspects related to Computational Econometrics i
 
 In many of the following econometric methods (especially when considering high-dimensional inference problems) which are implemented on Econometric/Statistical Programming Software (such as R), large computational time requires to consider parallel programming techniques in order to reduce execution time.  
 
-Now parallel programming techniques can have different meaning and can be employed in different forms. Firstly, these techniques do not necessarily refer to the econometric estimation method, however many times the executation time can be reduced when the programming algorithm is 'optimized' in terms of the way that operations/functions are executed. Therefore, running R scripts using RStudio on Personal Machines can be speed-up by using build-in packages that perform parallel optimization. Secondly, if one considers executing R scripts using HPC then 'parallel programming' refers to the way we also run these R scripts, so different techniques are needed in that case.  
+Now parallel programming techniques can have different meaning and can be employed in different forms. Firstly, these techniques do not necessarily refer to the econometric estimation method, however many times the executation time can be reduced when the programming algorithm is 'optimized' in terms of the way that operations/functions are executed. Consider for instance, the use of the Bootstrap Monte Carlo Algorithm to obtain critical values for the underline distribution of a test statistic which requires simulation techniques to obtain asymptotic approxiations. Therefore, running R scripts using RStudio on Personal Machines can be speed-up by using build-in packages that perform parallel optimization (see, R package ['parallel'](https://cran.r-project.org/web/views/HighPerformanceComputing.html). 
+
+Secondly, if one considers executing R scripts using HPC then 'parallel programming' refers to the way we also run these R scripts, so different techniques are needed in that case.  
 
 # [A]. Optimization Techniques and Dimensionality Reduction
 
