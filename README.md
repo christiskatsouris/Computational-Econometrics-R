@@ -37,9 +37,7 @@ Tests for Stochastic Dominance are usually nonparametric tests with mainy applic
 
 $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\mu}).(\mathbf{x} - \mathbf{\mu})^{\top}] = \mathbf{\Sigma}.$$ 
 
-\footnote{Note that the assumptions regarding the distribution of the portfolio returns might be slightly different than the assumption regarding the assumption of the distribution of stock returns especially if the portfolio returns are induced from a different risk matrix than the covariance matrix.}. 
- \item Investors are allowed to diversify between assets with a corresponding vector of portfolio weights $\mathbf{w} \in \mathbb{R}^N$. 
-\end{enumerate}
+3. Investors are allowed to diversify between assets with a corresponding N-dimensional vector of portfolio weights.
 
 
 
