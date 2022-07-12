@@ -106,6 +106,9 @@ Then, the corresponding GMM estimator is obtained based on the following optimiz
 
 $$\hat{\theta}_n = \underset{  \theta \in \Theta  }{ \mathsf{argmin}  }  \ \ [ g_n(  X, \theta ) ]^{\prime} W [ g_n(  X, \theta ) ] $$
 
+In other words, the statistical geometry of the GMM estimator minimizes the distance of sample counterparts to popultation parameters based on the underline orthogonality conditions and the distance matrix W.  
+
+
 ## Example 2
 
 
