@@ -4,6 +4,8 @@ A light tutotial page on various aspects related to Computational Econometrics i
 
 In many of the following computational and estimation problems due to possibly large computational time when using Statistical Programming Software (such as R) for implementation purposes, it is necessary to use parallel programming techniques to reduce execution time.  
 
+Now parallel programming techniques can have different meaning and can be employed in different forms. Firstly, these techniques do not necessarily refer to the econometric estimation method, however many times the executation time can be reduced when the computer algorithm is 'optimized' in terms of the way that operations are executed. 
+
 # [A]. Optimization Techniques and Dimensionality Reduction
 
 ## [A1]. Portfolio Optimization Techniques 
