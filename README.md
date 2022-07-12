@@ -17,7 +17,7 @@ Consider the traditional minimum-variance portfolio allocation problem
 
 $$\underset{ \boldsymbol{w} }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{1} = 1.$$
 
-where w = ( w1,..., wp ) represents the weights put on different assets and 1 is a p-dimensional vector with all entries being 1. Then, the optimal solution is given by 
+where w = ( w1,..., wp ) represents the weights put on different assets and 1 is a p-dimensional vector with all entries being 1. Then, the optimal vector of weights which has a closed-form solution is given by the following expression: 
 
 $$w^{*} = \frac{ \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }{ \boldsymbol{1}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }.$$
 
