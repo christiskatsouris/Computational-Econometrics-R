@@ -102,6 +102,10 @@ Define with
 
 $$g_n(  X, \theta ) = \frac{1}{n}  \sum_{i=1}^n g( X_i; \theta ) \ \ \ \text{such that} \ \ \mathbb{E} [ g_n(  X, \theta_0 ) ] = 0.$$
 
+Then, the corresponding GMM estimator is obtained based on the following optimization function 
+
+$$\hat{\theta}_n $$
+
 ## Example 2
 
 
