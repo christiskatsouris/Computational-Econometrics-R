@@ -28,6 +28,22 @@ $$\underset{ \boldsymbol{w} }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \bolds
 - Markowitz, H.M. 1959. Portfolio Selection: Efficient Diversification of Investments. New Haven: Yale University Press. Reprinted, New York: John Wiley and Sons, 1970.
 - Yu, K. B. (1991). Recursive updating the eigenvalue decomposition of a covariance matrix. IEEE Transactions on Signal Processing, 39(5), 1136-1145.
 
+### [A1.1] Testing for Stochastic Dominance
+
+Tests for Stochastic Dominance are usually nonparametric tests with mainy applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. The main idea of such a statistical test is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Then, the following assumptions should hold for the statistical validiy of these tests.  
+
+1. Investors use an expected utility maximization problem along with the portfolio returns 
+2. The asset returns are assumed to be serially independent and identically distributed with 
+
+$$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\mu}).(\mathbf{x} - \mathbf{\mu})^{\top}] = \mathbf{\Sigma}.$$ 
+
+\footnote{Note that the assumptions regarding the distribution of the portfolio returns might be slightly different than the assumption regarding the assumption of the distribution of stock returns especially if the portfolio returns are induced from a different risk matrix than the covariance matrix.}. 
+ \item Investors are allowed to diversify between assets with a corresponding vector of portfolio weights $\mathbf{w} \in \mathbb{R}^N$. 
+\end{enumerate}
+
+
+
+
 ## [A2]. Principal Component Analysis 
 
 
