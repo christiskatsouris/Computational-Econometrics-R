@@ -13,7 +13,9 @@ Now 'parallel programming' techniques can be employed in various forms depending
 
 ## [A1]. Portfolio Optimization Techniques 
 
-Consider the traditional minimum-variance portfolio allocation problem. 
+Consider the traditional minimum-variance portfolio allocation problem
+
+$$\underset{ \boldsymbol{w} }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{1} = 1.$$
 
 ## References
 
