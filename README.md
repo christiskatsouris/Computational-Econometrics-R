@@ -104,7 +104,7 @@ $$g_n(  X, \theta ) = \frac{1}{n}  \sum_{i=1}^n g( X_i; \theta ) \ \ \ \text{suc
 
 Then, the corresponding GMM estimator is obtained based on the following optimization function 
 
-$$\hat{\theta}_n = \underset{  \theta \in \Theta  }{ \mathsf{argmin}  }   [ g_n(  X, \theta ) ]^{\prime} W [ g_n(  X, \theta ) ] $$
+$$\hat{\theta}_n = \underset{  \theta \in \Theta  }{ \mathsf{argmin}  }  \ \ [ g_n(  X, \theta ) ]^{\prime} W [ g_n(  X, \theta ) ] $$
 
 ## Example 2
 
