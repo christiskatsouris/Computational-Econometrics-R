@@ -128,3 +128,9 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 [3] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge university press.
 
 [4] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
+
+# Disclaimer
+
+The author (Christis G. Katsouris) declares no conflicts of interest.
+
+The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.
