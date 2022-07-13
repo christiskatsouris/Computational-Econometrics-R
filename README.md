@@ -11,6 +11,8 @@ Now 'parallel programming' techniques can be employed in various forms depending
 
 ```R
 
+## Random number generators
+
 
 ```
 
