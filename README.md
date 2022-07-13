@@ -31,6 +31,17 @@ The closed-form solution of the above investement strategy is given by
 
 $$\boldsymbol{w}^* = \frac{ \boldsymbol{ \mu}_0 }{ \boldsymbol{\mu}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{\mu} } \boldsymbol{\Sigma}^{-1} \boldsymbol{\mu}.$$
 
+Similarly we can also consider Expected Utility Strategies, in which we incorporate the expected utility of an investor and thus the degree of risk aversion within the objective function. 
+
+$$\boldsymbol{w}^*  =   \underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg max} } \ U( \boldsymbol{R}_{t+1} ) = \boldsymbol{w}_t^{\top} \boldsymbol{R}_{t+1} -  \boldsymbol{w}_t^{\top} \boldsymbol{\Sigma}_{t+1|t} \boldsymbol{w}_t$$ 
+
+with optimization constraints given by 
+
+$$\boldsymbol{w}_t^{\top} \boldsymbol{1}= 1 \ \text{and} \  0 \leq \boldsymbol{w}_t \leq 1$$
+
+
+
+
 ## References
 
 - Ledoit, O., & Wolf, M. (2022). Quadratic shrinkage for large covariance matrices. Bernoulli, 28(3), 1519-1547.
