@@ -326,15 +326,17 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 
 [1] Abadir, K. M., & Magnus, J. R. (2005). Matrix algebra (Vol. 1). Cambridge University Press.
 
-[2] Hayashi, F. (2011). Econometrics. Princeton University Press.
+[2] Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
 
-[3] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge University Press.
+[3] Hayashi, F. (2011). Econometrics. Princeton University Press.
 
-[4] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of computational econometrics. John Wiley & Sons.
+[4] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge University Press.
 
-[5] Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
+[5] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of computational econometrics. John Wiley & Sons.
 
-[6] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
+[6] Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
+
+[7] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
 
 # Disclaimer
 
