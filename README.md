@@ -14,13 +14,14 @@ Now 'parallel programming' techniques can be employed in various forms depending
 ## [A1]. Portfolio Optimization Techniques 
 
 Consider rN to be the N-dimensional vector of stock returns at time t. In other words, this is considered to be a strictly stationary time series of an (N x 1) observed vector of returns (e.g., log returns) with population moments given by 
-$$ \text{\boldmath$\mu$} = \mathsf{E}[\mathbf{r}_t] = ( \mathsf{E}[ r_{1,t}] ,..., \mathsf{E}[ r_{N,t}] )^{\top} , \ \text{where} \ \text{\boldmath$\mu$} \in \mathbb{R}^{N \times 1}.$$
+
+$$ \boldsymbol{\mu} = \mathbb{E}[ \boldsymbol{r}_t ], \ \ \text{where} \ \boldsymbol{\mu} \in \mathbb{R}^{N \times 1}.$$
 
 representing the vector of expected returns for a given time period, e.g., a historical period or a full sample period $t=1,...,T$. 
 $$\mathbf{\Sigma}= \text{Cov}[\mathbf{r}_t] = \mathsf{E}[ \mathbf{r}_t \mathbf{r}_t^{\top}] - \text{\boldmath$\mu$} \text{\boldmath$\mu$}^{\top}.$$
 representing the (unconditional) covariance matrix (often called volatility matrix) of stock returns for the time period $t=1,...,T$.  
 
-Consider the traditional minimum-variance portfolio allocation problem
+Then, the traditional minimum-variance portfolio allocation problem
 
 $$\underset{ \boldsymbol{w} \in \mathbb{R}^N }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{1} = 1.$$
 
@@ -30,7 +31,7 @@ $$w^* = \frac{ \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }{ \boldsymbol{1}^{\top} 
 
 Therefore, for high-dimensional portfolio optimization problems, a challenging problem is the robust estimation of the inverse covariance matrix (precision matrix). In practise since the sample covariance matrix is used as a statistic of the corresponding population covariance matrix, then the resulting 'plug-in' portfolio vector has been widely adopted. However a related research question of interest is: How well does such a portfolio perform? A first step in this direction is to consider evaluating the portfolio performance - especially when comparing different estimates, using for instance stochastic dominance tests and/or via other portfolio performance measures. A second step in tackling this aspect is to investigate the asymptotic properties of the portfolio using different estimators for the covariance matrix by deriving appropriate error bounds in relation to different optimization constraints. 
 
-The mean-variance portfolio optimization problem is defined as below
+Furthermore, the mean-variance portfolio optimization problem is defined as below
 
 $$ \boldsymbol{w}^* =  \underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w}  \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{\mu} = \boldsymbol{\mu}_0.$$
 
