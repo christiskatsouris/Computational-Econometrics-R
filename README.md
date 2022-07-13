@@ -9,6 +9,11 @@ Now 'parallel programming' techniques can be employed in various forms depending
 - Eugster, M. J., Knaus, J., Porzelius, C., Schmidberger, M., & Vicedo, E. (2011). Hands-on tutorial for parallel computing with R. Computational Statistics, 26(2), 219-239.
 - [Parallel Computation in R.](https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html)
 
+```R
+
+
+```
+
 # [A]. Optimization Techniques and Dimensionality Reduction
 
 ## [A1]. Portfolio Optimization Techniques 
