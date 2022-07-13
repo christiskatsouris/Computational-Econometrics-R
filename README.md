@@ -76,8 +76,10 @@ optimal_weights_function_foc <- function( N = N, Sigma = Sigma )
   
 }#end of function
 
-
 ```
+
+In practise, the additional condition of having the weight vector being between zero and one is necessary when constructing the optimization problem to avoid infeasible solutions especially in the case where the optimal portfolio problem is constructed based on small number of observations. To implement the aformentioned procedure in R, we can employ a specific type of optimization algorithms called ['Genetic Algorithm'](https://rpubs.com/Argaadya/550805) (GA).  
+
 
 
 ## References
