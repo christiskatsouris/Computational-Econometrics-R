@@ -94,6 +94,15 @@ In practise, the additional condition of having the weight vector being between 
 
 ```R
 
+### R Package for the optimization
+install.packages("GA")
+install.packages("Matrix")
+install.packages("matlib")
+
+library(GA)
+library(Matrix)
+library(matlib)
+
 optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 {# begin of function
   
