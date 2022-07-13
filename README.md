@@ -25,7 +25,7 @@ Therefore, for high-dimensional portfolio optimization problems, a challenging p
 
 The mean-variance portfolio optimization problem is defined as below
 
-$$ \boldsymbol{w}^* =  \underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg min} }  \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w}$$
+$$ \boldsymbol{w}^* =  \underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w}  \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{\mu} .$$
 
 ## References
 
