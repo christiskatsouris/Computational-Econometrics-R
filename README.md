@@ -39,7 +39,45 @@ with optimization constraints given by
 
 $$\boldsymbol{w}_t^{\top} \boldsymbol{1}= 1 \ \ \ \text{and} \ \ \  0 \leq \boldsymbol{w}_t \leq 1$$
 
+## Example 1
 
+To solve the optimal portfolio problem we solve the Lagrangian function with only constraint the full investment condition. Construct an R coding procedure that obtaints the closed-form soluton based on the Markowitz portfolio optimization problem. Hint: To avoid the presence of ill-conditioned precision matrices especially when considering high-dimensional portfolios, use the pseudo-inverse methodology. 
+
+```R
+
+optimal_weights_function_foc <- function( N = N, Sigma = Sigma )
+{#begin of function
+  
+  #Assign the input values of the function
+  N     <- N
+  Sigma <- Sigma
+  
+  pinv <- function(A, eps=1e-8)
+  {
+    L <- svd(A)
+    d <- L$d
+    i <- abs(d) > eps
+    d[i] <- 1/d[i]
+    L$v %*% diag(d, nrow=length(d)) %*% t(L$u)
+  }
+  
+  ones <- matrix(1, nrow = N, ncol = 1)
+  sigma_inverse <- pinv(Sigma)
+  numerator     <- sigma_inverse%*%ones
+  denominator   <- ( t(ones) %*% (sigma_inverse) %*% (ones) )
+  denominator   <- as.numeric(denominator)
+  
+  optimal.weights <- (1/denominator)*numerator
+  optimal.weights <- as.matrix(optimal.weights)
+  
+  # Normalize Weights  
+  optimal.weights.norm = optimal.weights/sum(optimal.weights)
+  return(optimal.weights)
+  
+}#end of function
+
+
+```
 
 
 ## References
