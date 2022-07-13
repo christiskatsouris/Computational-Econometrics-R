@@ -47,7 +47,7 @@ $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\
 
 3. Investors are allowed to diversify between assets with a corresponding N-dimensional vector of portfolio weights.
 
-Additionally, in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by Katsouris (2021), we may also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the centrality structure or network topology of assets within the network. For example, the effectiveness of an investment strategy is feasible to be evaluated under the assumption that there are no linkages or spillover effects between the nodes of the network.
+Additionally, in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we may also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the centrality structure or network topology of assets within the network. For example, the effectiveness of an investment strategy is feasible to be evaluated under the assumption that there are no linkages or spillover effects between the nodes of the network.
 
 
 ## [A2]. Principal Component Analysis 
