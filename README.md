@@ -162,6 +162,7 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 
 ## Further Reading
 
+- Avella-Medina, M., Battey, H. S., Fan, J., & Li, Q. (2018). Robust estimation of high-dimensional covariance and precision matrices. Biometrika, 105(2), 271-284.
 - Ledoit, O., & Wolf, M. (2022). Quadratic shrinkage for large covariance matrices. Bernoulli, 28(3), 1519-1547.
 - Tyler, D. E., & Yi, M. (2020). Lassoing eigenvalues. Biometrika, 107(2), 397-414.
 
