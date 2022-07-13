@@ -21,12 +21,13 @@ where w = ( w1,..., wp ) represents the weights put on different assets and 1 is
 
 $$w^{*} = \frac{ \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }{ \boldsymbol{1}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }.$$
 
-Thus, for high-dimensional portfolio optimization problems, a challenging problem is the robust estimation of the inverse covariance matrix (precision matrix). In practise since the sample covariance matrix is used as a statistic of the corresponding population covariance matrix, then the resulting 'plug-in' portfolio vector has been widely adopted. However a related research question of interest is: How well does such a portfolio perform? A first step in this direction is to consider evaluating the portfolio performance - especially when comparing different estimates, using for instance stochastic dominance tests and/or via other portfolio performance measures. A second step in tackling this aspect is to investigate the asymptotic properties of the portfolio using different estimators for the covariance matrix by deriving appropriate error bounds. 
+Therefore, for high-dimensional portfolio optimization problems, a challenging problem is the robust estimation of the inverse covariance matrix (precision matrix). In practise since the sample covariance matrix is used as a statistic of the corresponding population covariance matrix, then the resulting 'plug-in' portfolio vector has been widely adopted. However a related research question of interest is: How well does such a portfolio perform? A first step in this direction is to consider evaluating the portfolio performance - especially when comparing different estimates, using for instance stochastic dominance tests and/or via other portfolio performance measures. A second step in tackling this aspect is to investigate the asymptotic properties of the portfolio using different estimators for the covariance matrix by deriving appropriate error bounds in relation to different optimization constraints. 
 
 ## References
 
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
 - Ledoit, O., & Wolf, M. (2022). Quadratic shrinkage for large covariance matrices. Bernoulli, 28(3), 1519-1547.
+- Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
 - Maillet, B., Tokpavi, S., & Vaucher, B. (2015). Global minimum variance portfolio optimisation under some model risk: A robust regression-based approach. European Journal of Operational Research, 244(1), 289-299.
 - Brandt, M. W., & Santa‐Clara, P. (2006). Dynamic portfolio selection by augmenting the asset space. The journal of Finance, 61(5), 2187-2217.
 - Markowitz, H.M. 1952. Portfolio selection. Journal of Finance 7(1), March, 77–91.
