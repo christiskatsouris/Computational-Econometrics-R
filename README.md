@@ -24,7 +24,7 @@ $$w^* = \frac{ \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }{ \boldsymbol{1}^{\top} 
 Therefore, for high-dimensional portfolio optimization problems, a challenging problem is the robust estimation of the inverse covariance matrix (precision matrix). In practise since the sample covariance matrix is used as a statistic of the corresponding population covariance matrix, then the resulting 'plug-in' portfolio vector has been widely adopted. However a related research question of interest is: How well does such a portfolio perform? A first step in this direction is to consider evaluating the portfolio performance - especially when comparing different estimates, using for instance stochastic dominance tests and/or via other portfolio performance measures. A second step in tackling this aspect is to investigate the asymptotic properties of the portfolio using different estimators for the covariance matrix by deriving appropriate error bounds in relation to different optimization constraints. 
 
 The mean-variance portfolio optimization problem is defined as below
-$$ \boldsymbol{w}^{*} =  \underset{ \boldsymbol{w} \in \mathbb{R}^n }{ \mathsf{argmin} } = \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \text{s.t}  \   \boldsymbol{w}^{\top} \boldsymbol{\mu} = \boldsymbol{\mu_0}.$$
+$$ \boldsymbol{w}^* =  \underset{ \boldsymbol{w} }{ \mathsf{arg min} }  = \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \text{s.t}  \   \boldsymbol{w}^{\top} \boldsymbol{\mu} = \boldsymbol{\mu_0}.$$
 
 ## References
 
