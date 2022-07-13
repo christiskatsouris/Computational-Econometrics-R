@@ -189,12 +189,12 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 
 Tests for Stochastic Dominance are usually nonparametric tests with mainy applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. The main idea of such a statistical test is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Then, the following assumptions should hold for the statistical validiy of these tests.  
 
-1. Investors use an expected utility maximization problem along with the portfolio returns 
-2. The asset returns are assumed to be serially independent and identically distributed with 
+(i).   Investors use an expected utility maximization problem along with the portfolio returns. 
+(ii).  The asset returns are assumed to be serially independent and identically distributed with 
 
 $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\mu}).(\mathbf{x} - \mathbf{\mu})^{\top}] = \mathbf{\Sigma}.$$ 
 
-3. Investors are allowed to diversify between assets with a corresponding N-dimensional vector of portfolio weights.
+(iii). Investors are allowed to diversify between assets with a corresponding N-dimensional vector of portfolio weights.
 
 Additionally, in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we may also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the centrality structure or network topology of assets within the network. For example, the effectiveness of an investment strategy is feasible to be evaluated under the assumption that there are no linkages or spillover effects between the nodes of the network.
 
@@ -218,6 +218,8 @@ Following the following steps construct a small Monte Carlo simulation study whe
 
 - Step 1: Choose an appropriate optimization methodology and set-up the constraint optimization problem with the necessary conditions. 
 - Step 2: Compare the convergence properties of the optimization algorithm and the performance of the optimal portfolio using variance-covariance matrix versus using a GARCH-based covariance matrix. 
+- Step 3: Simulate from the Multivariate normal distribution the elements of the covariance matrix.
+- Step 4: Repeat the procedure B times for the Monte Carlo step and obtain the empirical variance and MSE in order to compare the different optimization methods.
 
 # [B]. Iterative Simulation and Estimation Methodologies
 
