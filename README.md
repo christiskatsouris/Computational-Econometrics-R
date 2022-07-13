@@ -78,9 +78,66 @@ optimal_weights_function_foc <- function( N = N, Sigma = Sigma )
 
 ```
 
-In practise, the additional condition of having the weight vector being between zero and one is necessary when constructing the optimization problem to avoid infeasible solutions especially in the case where the optimal portfolio problem is constructed based on small number of observations. To implement the aformentioned procedure in R, we can employ a specific type of optimization algorithms called ['Genetic Algorithm'](https://rpubs.com/Argaadya/550805) (GA).  
+In practise, the additional condition of having the weight vector being between zero and one is necessary when constructing the optimization problem to avoid infeasible solutions especially in the case where the optimal portfolio problem is constructed based on small number of observations. To implement the aformentioned procedure in R, we can employ a specific type of optimization algorithms called ['Genetic Algorithm'](https://rpubs.com/Argaadya/550805) (GA) which employs an iterative procedure to converge to an approximate solution given a prespecified number of iterations.  
+
+```R
+
+optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
+{# begin of function
+  
+  set.seed(1234)
+  # Assign the input values of the function
+  N     <- N
+  Sigma <- Sigma
+  
+  # normalised weights
+  weights <- function(w) 
+  { 
+    drop(w/sum(w)) 
+  }
+  
+  # Estimation of the variance of the portfolio
+  VarPortfolio <- function( w, S=Sigma ) 
+  {
+    S <- S
+    w <- weights(w)
+    drop(t(w) %*% S %*% w) # Objective function
+  }
+  
+  # fitness function
+  fitness <- function(w) 
+  {# begin of function
+    constraint = function(w) 
+    {# begin of function
+      boundary_constr = (sum(w)-1)^2   # "sum x = 1" constraint
+      
+      for (i in 1:length(w))
+      {
+        boundary_constr = boundary_constr + 
+          max(c(0,w[i]-1))^2 +  # "x <= 1" constraint
+          max(c(0,-w[i]))^2     # "x >= 0" constraint
+      }
+      
+     return (boundary_constr)
+    }# end of function
+    
+    penalty <- constraint(w)
+    -(VarPortfolio(w) + penalty)
+  }# end of function
+  
+  # Genetic Algorithm Estimation of optimal weights
+  GA <- ga(type = "real-valued", fitness = fitness,
+           lower = rep(0, Nr_C), upper = rep(1, Nr_C), 
+           maxiter = 1000, run = 200, optim = TRUE)
+  
+  optimal.weights <- weights(GA@solution)
+  return( optimal.weights )
+  
+}# end of function
 
 
+
+```
 
 ## References
 
