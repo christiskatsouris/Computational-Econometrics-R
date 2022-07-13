@@ -18,7 +18,8 @@ Consider rN to be the N-dimensional vector of stock returns at time t. In other 
 $$ \boldsymbol{\mu} = \mathbb{E}[ \boldsymbol{r}_t ], \ \ \text{where} \ \boldsymbol{\mu} \in \mathbb{R}^{N \times 1}.$$
 
 representing the vector of expected returns for a given time period, e.g., a historical period or a full sample period $t=1,...,T$. 
-$$\mathbf{\Sigma}= \text{Cov}[\mathbf{r}_t] = \mathsf{E}[ \mathbf{r}_t \mathbf{r}_t^{\top}] - \text{\boldmath$\mu$} \text{\boldmath$\mu$}^{\top}.$$
+
+$$\boldsymbol{\Sigma}= \mathsf{Cov}[ \boldsymbol{r}_t ] = \mathbb{E}[ \boldsymbol{r}_t \boldsymbol{r}_t^{\top} ] - \boldsymbol{\mu} \boldsymbol{\mu}^{\top}.$$
 representing the (unconditional) covariance matrix (often called volatility matrix) of stock returns for the time period $t=1,...,T$.  
 
 Then, the traditional minimum-variance portfolio allocation problem
