@@ -1,6 +1,6 @@
 # Computational-Econometrics-R
 
-A light tutotial page on various aspects related to Computational Econometrics issues. 
+A light tutotial page on various aspects related to Computational Econometrics issues (Drafted: July 2022). 
 
 In many of the following econometric methods (especially when considering high-dimensional inference problems) which are implemented on Econometric/Statistical Programming Software (such as R), large computational time requires to consider parallel programming techniques in order to reduce execution time.  
 
