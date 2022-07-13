@@ -37,7 +37,7 @@ $$\underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg max} } \ U( R_{t+1}
 
 with optimization constraints given by 
 
-$$\boldsymbol{w}_t^{\top} \boldsymbol{1}= 1 \ \text{and} \  0 \leq \boldsymbol{w}_t \leq 1$$
+$$\boldsymbol{w}_t^{\top} \boldsymbol{1}= 1 \ \ \ \text{and} \ \ \  0 \leq \boldsymbol{w}_t \leq 1$$
 
 
 
