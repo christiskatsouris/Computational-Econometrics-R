@@ -135,8 +135,6 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
   
 }# end of function
 
-
-
 ```
 
 ## References
