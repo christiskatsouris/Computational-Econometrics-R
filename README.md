@@ -212,6 +212,10 @@ Additionally, in order to be able to evaluate the effectiveness of the portfolio
 - Tikhonov, A. N. (1963). On the solution of ill-posed problems and the method of regularization. In Doklady Akademii Nauk (Vol. 151, No. 3, pp. 501-504). Russian Academy of Sciences.
 
 
+# Assignment 1
+
+Following the following steps construct a small Monte Carlo simulation study where the portfolio performance is evaluated using different constraints (thus changing the investment strategy).
+
 
 # [B]. Iterative Simulation and Estimation Methodologies
 
