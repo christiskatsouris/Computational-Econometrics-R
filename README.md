@@ -15,9 +15,9 @@ Now 'parallel programming' techniques can be employed in various forms depending
 
 Consider the traditional minimum-variance portfolio allocation problem
 
-$$\underset{ \boldsymbol{w} }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{1} = 1.$$
+$$\underset{ \boldsymbol{w} \in \mathbb{R}^N }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{1} = 1.$$
 
-where w = ( w1,..., wp ) represents the weights put on different assets and 1 is a p-dimensional vector with all entries being 1. Then, the optimal vector of weights which has a closed-form solution is given by the following expression: 
+where w = ( w1,..., wN ) represents the weights put on different assets and 1 is a N-dimensional vector with all entries being 1. Then, the optimal vector of weights which has a closed-form solution is given by the following expression: 
 
 $$w^* = \frac{ \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }{ \boldsymbol{1}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }.$$
 
@@ -25,7 +25,7 @@ Therefore, for high-dimensional portfolio optimization problems, a challenging p
 
 The mean-variance portfolio optimization problem is defined as below
 
-$$ \boldsymbol{w}^* =  \underset{ \boldsymbol{w} }{ \mathsf{arg min} } $$
+$$ \boldsymbol{w}^* =  \underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg min} }  \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w}$$
 
 ## References
 
