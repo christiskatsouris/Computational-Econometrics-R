@@ -33,7 +33,7 @@ $$\boldsymbol{w}^* = \frac{ \boldsymbol{ \mu}_0 }{ \boldsymbol{\mu}^{\top} \bold
 
 Similarly we can also consider Expected Utility Strategies, in which we incorporate the expected utility of an investor and thus the degree of risk aversion within the objective function. 
 
-$$\boldsymbol{w}^*  =   \underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg max} } \ U( \boldsymbol{R}_{t+1} ) = \boldsymbol{w}_t^{\top} \boldsymbol{R}_{t+1} -  \boldsymbol{w}^{\top}_t \boldsymbol{\Sigma}_{t+1|t} \boldsymbol{w}_t$$ 
+$$\underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg max} } \ U( \boldsymbol{R}_{t+1} ) = \boldsymbol{w}_t^{\top} \boldsymbol{R}_{t+1} -  \boldsymbol{w}^{\top}_t \boldsymbol{\Sigma}_{t+1|t} \boldsymbol{w}_t$$ 
 
 with optimization constraints given by 
 
