@@ -20,7 +20,10 @@ $$ \boldsymbol{\mu} = \mathbb{E}[ \boldsymbol{r}_t ], \ \ \text{where} \ \boldsy
 representing the vector of expected returns for a given time period, e.g., a historical period or a full sample period $t=1,...,T$. 
 
 $$\boldsymbol{\Sigma}= \mathsf{Cov}[ \boldsymbol{r}_t ] = \mathbb{E}[ \boldsymbol{r}_t \boldsymbol{r}_t^{\top} ] - \boldsymbol{\mu} \boldsymbol{\mu}^{\top}.$$
-representing the (unconditional) covariance matrix (often called volatility matrix) of stock returns for the time period $t=1,...,T$.  
+representing the (unconditional) covariance matrix (often called volatility matrix) of stock returns for the time period $t=1,...,T$. 
+
+Moreover, let R_t+1 denote the continuous random variable which represents the portfolio returns at time t+1 which is given by
+$$R_{t+1} = \sum_{i=1}^N w_{i,t} r_{i,t+1} \equiv \boldsymbol{w}^{\top}_t \boldsymbol{r}_{t+1}.$$
 
 Then, the traditional minimum-variance portfolio allocation problem
 
