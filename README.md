@@ -212,10 +212,12 @@ Additionally, in order to be able to evaluate the effectiveness of the portfolio
 - Tikhonov, A. N. (1963). On the solution of ill-posed problems and the method of regularization. In Doklady Akademii Nauk (Vol. 151, No. 3, pp. 501-504). Russian Academy of Sciences.
 
 
-# Assignment 1
+## Assignment 1
 
 Following the following steps construct a small Monte Carlo simulation study where the portfolio performance is evaluated using different constraints (thus changing the investment strategy).
 
+- Step 1: Choose an appropriate optimization methodology and set-up the constraint optimization problem with the necessary conditions. 
+- Step 2: Compare the convergence properties of the optimization algorithm and the performance of the optimal portfolio using variance-covariance matrix versus using a GARCH-based covariance matrix. 
 
 # [B]. Iterative Simulation and Estimation Methodologies
 
