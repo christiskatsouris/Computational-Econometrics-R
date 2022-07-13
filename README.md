@@ -294,6 +294,7 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 ## References
 
 - Andrews, D. W., & Lu, B. (2001). Consistent model and moment selection procedures for GMM estimation with application to dynamic panel data models. Journal of econometrics, 101(1), 123-164.
+- Andrews, D. W. (1997). A stopping rule for the computation of generalized method of moments estimators. Econometrica: Journal of the Econometric Society, 913-931.
 - Chesher, A., & Smith, R. J. (1997). Likelihood ratio specification tests. Econometrica: Journal of the Econometric Society, 627-646.
 - Hansen, L. (1982): “Large Sample Properties of Generalized Method of Moments Estimators,” Econometrica
 - Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
