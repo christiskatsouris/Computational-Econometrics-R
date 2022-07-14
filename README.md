@@ -173,6 +173,10 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 
 ```
 
+Further investment strategies can be considered, however the optimization problem has additional computational burden.  
+
+
+
 ## References
 
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
