@@ -175,7 +175,7 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 
 Further investment strategies can be considered, however the optimization problem has additional computational burden. Overall, we consider the optimization problem under investigation to be a learning problem with the optimal weights being random draws from the parameter space of portfolio weights such as  
 
-$$Q = \text{sup}_{w_1,...,w_N \geq 0} ( \phi(w_1,...,w_N) | w_1,...,w_N  ).$$
+$$Q =  \underset{ w_1,...,w_N \geq 0 }{  \mathsf{sup} }  [ \phi(w_1,...,w_N) | w_1,...,w_N  ].$$
 
 ## References
 
