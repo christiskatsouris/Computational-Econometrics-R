@@ -7,6 +7,7 @@ In many of the following econometric methods (especially when considering high-d
 Now 'parallel programming' techniques can be employed in various forms depending on the programming environment or the operating system. Firstly, these techniques do not necessarily refer to the econometric estimation method, however many times the executation time can be reduced when the programming algorithm is 'optimized' in terms of the way that operations/functions are executed. Consider for instance, the use of the Bootstrap Monte Carlo Algorithm to obtain critical values for the underline distribution of a test statistic which requires simulation techniques to obtain asymptotic approxiations. Therefore, running R scripts using RStudio on Personal Machines can be speed-up by using build-in packages that perform parallel optimization (see, R package ['parallel'](https://cran.r-project.org/web/views/HighPerformanceComputing.html)). Secondly, if one considers executing R scripts using HPC then 'parallel programming' refers to the optimal execution of those R scripts that use the available computer resources (e.g., computing capabilities) as efficient as possible. See the following bibliography:
 
 - Eugster, M. J., Knaus, J., Porzelius, C., Schmidberger, M., & Vicedo, E. (2011). Hands-on tutorial for parallel computing with R. Computational Statistics, 26(2), 219-239.
+- Knaus, J. Snowfall: Easier cluster computing (based on snow). R package version 1.84-6; 2013.
 - [Parallel Computation in R.](https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html)
 
 
