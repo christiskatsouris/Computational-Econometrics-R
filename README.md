@@ -163,7 +163,7 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
   
   # Genetic Algorithm Estimation of optimal weights
   GA <- ga(type = "real-valued", fitness = fitness,
-           lower = rep(0, Nr_C), upper = rep(1, Nr_C), 
+           lower = rep(0, N), upper = rep(1, N), 
            maxiter = 1000, run = 200, optim = TRUE)
   
   optimal.weights <- weights(GA@solution)
