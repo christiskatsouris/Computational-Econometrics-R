@@ -10,9 +10,9 @@ Now 'parallel programming' techniques can be employed in various forms depending
 - [Parallel Computation in R.](https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html)
 
 
-In practise the understanding of some important computing tools and techniques can assist in improving algorithmic efficiency and reduce the execution time. A classic book on these topics is:
+In practise the understanding of some important computing tools and techniques can assist in improving algorithmic efficiency and reduce the execution time. A classic book which covers related topics is:
 
-Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.. 
+- Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 
 Question: What is randomness? Can we define what a 'random number' is?
 
