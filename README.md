@@ -329,6 +329,7 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 - Andrews, D. W. (1997). A stopping rule for the computation of generalized method of moments estimators. Econometrica: Journal of the Econometric Society, 913-931.
 - Chesher, A., & Smith, R. J. (1997). Likelihood ratio specification tests. Econometrica: Journal of the Econometric Society, 627-646.
 - Hansen, L. (1982): “Large Sample Properties of Generalized Method of Moments Estimators,” Econometrica.
+- Hansen, B. E., & Lee, S. (2021). Inference for iterated GMM under misspecification. Econometrica, 89(3), 1419-1447.
 - Stock, J. H., & Wright, J. H. (2000). GMM with weak identification. Econometrica, 68(5), 1055-1096.
 - Lof, M. (2014). GMM Estimation with Non‐causal Instruments under Rational Expectations. Oxford Bulletin of Economics and Statistics, 76(2), 279-286.
 - Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
@@ -356,8 +357,9 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 1. Understand the basic philosophy and tools of computational algorithms for solving convex problems (e.g., optimal portfolio allocation, asset pricing problems, GMM estimation).
 2. Be able to apply computational algorithms to data-driven methodologies (e.g., use of the iterated GMM for inference purposes). 
 3. Understand the basic properties of convergence rates for computational algorithms (e.g., for computational efficieny and asymptotic theory analysis purposes). 
-4. Be able to implement the above estimation and optimization techniques to economic, finance and actuarial data.
-5. Be able to use Statistical/Econometric Programming Software such as R, Matlab or Stata.  
+4. Be able to implement estimation and optimization techniques to economic, finance and actuarial data.
+5. Be able to apply statistical testing procedures (such as tests for stochastic dominance) to evaluate the performance of optimization schemes. 
+6. Be able to use Statistical/Econometric Programming Software such as R, Matlab or Stata.  
 
 # Disclaimer
 
