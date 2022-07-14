@@ -331,7 +331,7 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 - Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
 
 
-# Further Reading
+# Reading List
 
 [1] Abadir, K. M., & Magnus, J. R. (2005). Matrix algebra (Vol. 1). Cambridge University Press.
 
@@ -346,6 +346,9 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 [6] Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
 
 [7] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
+
+# Learning Outcomes
+
 
 # Disclaimer
 
