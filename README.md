@@ -350,13 +350,22 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 
 # Learning Outcomes
 
+1. Understand the basic philosophy and tools of computational algorithms for solving convex problems (e.g., optimal portfolio allocation, asset pricing problems, GMM estimation).
+2. Be able to apply computational algorithms to data-driven methodologies (e.g., use of the iterated GMM for inference purposes). 
+3. Understand the basic properties of convergence rates for computational algorithms (e.g., for computational efficieny and asymptotic theory analysis purposes). 
+4. Be able to implement the above estimation and optimization techniques to economic, finance and actuarial data.
+5. Be able to use Statistical/Econometric Programming Software such as R, Matlab or Stata.  
 
 # Disclaimer
 
 The author (Christis G. Katsouris) declares no conflicts of interest.
 
-The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.
+The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved. 
+
+Any errors or omissions are the responsibility of the author. 
 
 # Acknowledgments
+
+The author has benefited enormously by participating in workshops and training sessions related to High Performance Computing both at the University of Southampton as well as at University College London (UCL). 
 
 
