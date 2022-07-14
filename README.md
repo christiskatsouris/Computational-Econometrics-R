@@ -352,3 +352,7 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 The author (Christis G. Katsouris) declares no conflicts of interest.
 
 The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.
+
+# Acknowledgments
+
+
