@@ -189,10 +189,10 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 
 - Antell, J., & Vaihekoski, M. (2019). Expected and realized returns in conditional asset pricing models: A new testing approach. Journal of Empirical Finance, 52, 220-236.
 - Avella-Medina, M., Battey, H. S., Fan, J., & Li, Q. (2018). Robust estimation of high-dimensional covariance and precision matrices. Biometrika, 105(2), 271-284.
+- Chen, J., Dai, G., & Zhang, N. (2020). An application of sparse-group lasso regularization to equity portfolio optimization and sector selection. Annals of Operations Research, 284(1), 243-262.
 - Ledoit, O., & Wolf, M. (2022). Quadratic shrinkage for large covariance matrices. Bernoulli, 28(3), 1519-1547.
 - Tyler, D. E., & Yi, M. (2020). Lassoing eigenvalues. Biometrika, 107(2), 397-414.
 - Zhao, Z., Ledoit, O., & Jiang, H. (2020). Risk reduction and efficiency increase in large portfolios: leverage and shrinkage. University of Zurich, Department of Economics, Working Paper, (328).
-
 
 
 ### [A1.1.] Testing for Stochastic Dominance
