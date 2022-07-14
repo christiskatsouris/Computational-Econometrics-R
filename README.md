@@ -9,6 +9,11 @@ Now 'parallel programming' techniques can be employed in various forms depending
 - Eugster, M. J., Knaus, J., Porzelius, C., Schmidberger, M., & Vicedo, E. (2011). Hands-on tutorial for parallel computing with R. Computational Statistics, 26(2), 219-239.
 - [Parallel Computation in R.](https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html)
 
+
+In practise the understanding of some important computing tools and techniques can assist in improving algorithmic efficiency and reduce the execution time. A classic book on these topics is:
+
+Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.. 
+
 Question: What is randomness? Can we define what a 'random number' is?
 
 ```R
