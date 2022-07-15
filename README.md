@@ -225,6 +225,11 @@ Following the following steps construct a small Monte Carlo simulation study whe
 - Step 3: Simulate from the Multivariate normal distribution the elements of the covariance matrix.
 - Step 4: Repeat the procedure B times for the Monte Carlo step and obtain the empirical variance and MSE in order to compare the different optimization methods.
 
+## Self-Assesment Questions:
+
+1. What are the main econometric challenges when optimizing large portfolios?
+2. Can we construct an optimization function that relates centrality measures with risk measures? 
+
 ## [A2]. Principal Component Analysis 
 
 The increase in computational power and the capacity to compute the asset allocation for large portfolios has moved the literature towards high intensive statistical and
@@ -359,11 +364,13 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 
 [4] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge University Press.
 
-[5] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of computational econometrics. John Wiley & Sons.
+[5] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
 
 [6] Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
 
 [7] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
+
+[8] Chen, X. (2007). Large sample sieve estimation of semi-nonparametric models. Handbook of Econometrics, 6, 5549-5632.
 
 # Learning Outcomes
 
