@@ -17,6 +17,8 @@ In practise the understanding of some important computing tools and techniques c
 
 Question: What is randomness? Can we define what a 'random number' is?
 
+When running a simulation study is important to be able to replicate the same results on different R sessions (on the same or different computers) using the same coding procedure. Thus, it is possible to reproduce the results by seeding the RNG, essentially choosing where to start in a long sequence of randomly generated numbers (say uniformly distributed within a prespecified interval).      
+
 ```R
 
 ## Random number generators
