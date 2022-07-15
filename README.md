@@ -25,6 +25,17 @@ When running a simulation study is important to be able to replicate the same re
 
 > set.seed( seed, kind = NULL, normal.kind = NULL )
 
+## Example: 
+
+> set.seed(1234)
+> runif(5)
+[1] 0.1137034 0.6222994 0.6092747 0.6233794 0.8609154
+> runif(5)
+[1] 0.640310605 0.009495756 0.232550506 0.666083758 0.514251141
+> set.seed(1234)
+> runif(5)
+[1] 0.1137034 0.6222994 0.6092747 0.6233794 0.8609154
+
 ```
 
 # [A]. Optimization Techniques and Dimensionality Reduction
