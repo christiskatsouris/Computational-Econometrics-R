@@ -266,7 +266,7 @@ given the observations ( yt : t = 1,...,n ) and some positive definite matrix S,
 
 $$\text{log det} \ \left( n^{-1} \sum_{t=1}^n \left( y_n - g_t (b) \right)^{\prime} \left( y_n - g_t (b) \right) \right).$$
 
-## Example 1
+## Example 2
 
 Consider the MDE of an AR(1) model using R. 
 
@@ -338,7 +338,7 @@ $$\hat{\theta}_n = \underset{  \theta \in \Theta  }{ \mathsf{argmin}  }  \ \ [ g
 In other words, the statistical geometry of the GMM estimator minimizes the distance of sample counterparts to popultation parameters based on the underline orthogonality conditions and the distance matrix W.  
 
 
-## Example 2
+## Example 3
 
 
 ## References
