@@ -433,6 +433,12 @@ Gradian eval. =  NA
 
 ```
 
+## Task 2
+
+Consider the GMM estimation for the following econometric specification. 
+
+
+
 ## References
 
 - Andrews, D. W., & Lu, B. (2001). Consistent model and moment selection procedures for GMM estimation with application to dynamic panel data models. Journal of econometrics, 101(1), 123-164.
