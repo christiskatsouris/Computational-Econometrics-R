@@ -75,7 +75,7 @@ The closed-form solution of the above investement strategy is given by
 
 $$\boldsymbol{w}^* = \frac{ \boldsymbol{ \mu}_0 }{ \boldsymbol{\mu}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{\mu} } \boldsymbol{\Sigma}^{-1} \boldsymbol{\mu}.$$
 
-Similarly we can also consider Expected Utility Strategies, in which we incorporate the expected utility of an investor and thus the degree of risk aversion within the objective function. 
+Similarly we can also consider Expected Utility Strategies, in which we incorporate the expected utility of an investor and thus the degree of risk aversion within the objective function as shown below 
 
 $$\underset{ \boldsymbol{w} \in \mathbb{R}^N  }{ \mathsf{arg max} } \ U( R_{t+1} ) =  \boldsymbol{w}^{\top} R_{t+1} -  \boldsymbol{w}^{\top} \boldsymbol{\Sigma}_{t+1|t} \boldsymbol{w}$$ 
 
