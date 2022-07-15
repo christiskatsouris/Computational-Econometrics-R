@@ -200,6 +200,14 @@ $$Q =  \underset{ w_1,...,w_N \geq 0 }{  \mathsf{sup} }  \bigg[ \phi(w_1,...,w_N
 
 - An alternative way of obtaining the solution of the optimal portfolio choice problem (minimum-variance investement strategy) is to use the least squares projection method (see, Maillet et al. (2015)). 
 
+Define with
+$$\boldsymbol{\Theta} = \boldsymbol{I}_n - \frac{ \boldsymbol{1} \boldsymbol{1}^{\top}}_{n}  \ \ \ \text{and} \ \ \ \boldsymbol{Q}$ a $n \times (n-1)$$$
+
+$$ and $ matrix which has as its columns the $(n-1)$ non-zero eigenvalues of the matrix  $\mathbf{\Theta}$ and it satisfies the properties
+\begin{align}
+ \mathbf{Q}^{\top}\mathbf{1} = 0 \ \text{and} \  \mathbf{Q}^{\top} \mathbf{Q} = \mathbf{I}_{n-1}
+\end{align}  
+
 ## References
 
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
