@@ -290,8 +290,11 @@ Consider the MDE of an AR(1) model using R.
 
 ```R
 
-## See the R package 'KoulMde'  
+## Install required packages in R
+install.packages("KoulMde")
+library(KoulMde)
 
+set.seed(1234)
 n <- 10
 p <- 3
 
@@ -331,8 +334,8 @@ beta2     <- MDE2stageResult$betahat2stage
 residual2 <- MDE1stageResult$residual2stage
 rho2      <- MDE2stageResult$rhohat2stage
 
-
 ```
+
 ## References
 
 - Wolfowitz, J. (1957). The minimum distance method. The Annals of Mathematical Statistics, 75-88.
@@ -357,6 +360,18 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 
 ## Example 3
 
+```R
+
+## Install required packages in R
+install.packages("GMM")
+library(GMM)
+
+set.seed(1234)
+
+
+
+
+```
 
 ## References
 
