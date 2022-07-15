@@ -450,11 +450,10 @@ Consider the GMM estimation for the following econometric specification.
 - Chesher, A., & Smith, R. J. (1997). Likelihood ratio specification tests. Econometrica: Journal of the Econometric Society, 627-646.
 - Hansen, L. (1982): “Large Sample Properties of Generalized Method of Moments Estimators,” Econometrica.
 - Hansen, B. E., & Lee, S. (2021). Inference for iterated GMM under misspecification. Econometrica, 89(3), 1419-1447.
-- Stock, J. H., & Wright, J. H. (2000). GMM with weak identification. Econometrica, 68(5), 1055-1096.
 - Lof, M. (2014). GMM Estimation with Non‐causal Instruments under Rational Expectations. Oxford Bulletin of Economics and Statistics, 76(2), 279-286.
+- Park, S. K., Ahn, S. K., & Cho, S. (2011). Generalized method of moments estimation for cointegrated vector autoregressive models. Computational statistics & data analysis, 55(9), 2605-2618.
+- Stock, J. H., & Wright, J. H. (2000). GMM with weak identification. Econometrica, 68(5), 1055-1096.
 - Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
-
-
 
 # Reading List
 
