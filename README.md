@@ -217,6 +217,8 @@ Additionally, in order to be able to evaluate the effectiveness of the portfolio
 
 ## [A2]. Principal Component Analysis 
 
+The increase in computational power and the capacity to compute the asset allocation for large portfolios has moved the literature towards high intensive statistical and
+computational methods which require different approaches in terms of calculating the optimal portfolio asset allocation problem.
 
 
 ## References
