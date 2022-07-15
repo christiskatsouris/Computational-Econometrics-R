@@ -198,6 +198,7 @@ $$Q =  \underset{ w_1,...,w_N \geq 0 }{  \mathsf{sup} }  \bigg[ \phi(w_1,...,w_N
 
 - Notice that for the implementation of the GA algorithm in R the maximum number of iterations (e.g., set to 1000) is considered to be a stopping rule for the convergence rate of the optimization problem. However, depending from the investment strategy and the corresponding constraints the 'optimal number' of iterations that ensure convergence to the approximate optimal vector can vary.  
 
+- An alternative way of considering the solution of the optimal portfolio 
 
 ## References
 
