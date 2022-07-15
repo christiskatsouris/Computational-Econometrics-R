@@ -23,6 +23,7 @@ When running a simulation study is important to be able to replicate the same re
 
 ## Random number generators
 
+> set.seed( seed, kind = NULL, normal.kind = NULL )
 
 ```
 
