@@ -198,12 +198,12 @@ $$Q =  \underset{ w_1,...,w_N \geq 0 }{  \mathsf{sup} }  \bigg[ \phi(w_1,...,w_N
 
 - Notice that for the implementation of the GA algorithm in R the maximum number of iterations (e.g., set to 1000) is considered to be a stopping rule for the convergence rate of the optimization problem. However, depending from the investment strategy and the corresponding constraints the 'optimal number' of iterations that ensure convergence to the approximate optimal vector can vary.  
 
-- An alternative way of obtaining the solution of the optimal portfolio choice problem (minimum-variance investement strategy) is to use the least squares projection method (see, Maillet et al. (2015)). 
+- An alternative way of obtaining the solution of the optimal portfolio choice problem (minimum-variance investement strategy or Global Minimu Variance Portflio - GMVP) is to use the least squares projection method (see, Maillet et al. (2015)). 
 
-Define with $\boldsymbol{\Theta} = \boldsymbol{I} - \frac{ \boldsymbol{1} }{ \boldsymbol{1}^{\top} }$  and $\boldsymbol{Q}$ an $n \times (N-1)$ matrix which has as its columns the $(N-1)$ non-zero eigenvalues of the matrix  $\mathbf{\Theta}$ and it satisfies the properties $\mathbf{Q}^{\top}\mathbf{1} = 0 \ \text{and} \  \mathbf{Q}^{\top} \mathbf{Q} = \mathbf{I}_{N-1}$
+Define with $\boldsymbol{\Theta} = \boldsymbol{I} - \frac{ \boldsymbol{1} }{ \boldsymbol{1}^{\top} }$  and $\boldsymbol{Q}$ an $n \times (N-1)$ matrix which has as its columns the $(N-1)$ non-zero eigenvalues of the matrix  $\mathbf{\Theta}$ and it satisfies the properties $\mathbf{Q}^{\top}\mathbf{1} = 0 \ \text{and} \  \mathbf{Q}^{\top} \mathbf{Q} = \mathbf{I}_{N-1}$, then the solution of the GMVP using least squares regression is given as below
 
+$$\hat{\mathbf{w}}^* = \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma}^{*}.$$
 
- $\sqrt{3x-1}+(1+x)^2$
 
 ## References
 
