@@ -227,11 +227,15 @@ Following the following steps construct a small Monte Carlo simulation study whe
 ## [A2]. Principal Component Analysis 
 
 The increase in computational power and the capacity to compute the asset allocation for large portfolios has moved the literature towards high intensive statistical and
-computational methods which require different approaches in terms of calculating the optimal portfolio asset allocation problem.
+computational methods which require different approaches in terms of calculating the optimal portfolio asset allocation problem. In particular a seminal paper in this direction is presented by Chamberlain, G. and Rothschild, M. (1983) in which the authors examine the properties of the first two moments of the joint distribution of returns of assets as the number of assets goes to infinity. The main decomposition of the their paper, captures the notion that the stochastic structure of asset returns is determined by a small number of factors, while the rest of the terms can be considered negligible.  Furthermore, other important streams of literature in the direction of econometric techniques for estimating moments for large datasets include the methodology of principal components analysis for estimating large covariance matrices (see, Anderson et al (1963)) as well as the factor models estimation of large dimensions (see, Bai (2003)). 
 
 
 ## References
 
+- Anderson, T. W. (1963). Asymptotic theory for principal component analysis. The Annals of Mathematical Statistics, 34(1), 122-148.
+- Bai, J. (2003). Inferential theory for factor models of large dimensions. Econometrica, 71(1), 135-171.
+- Chamberlain, G. (1983). Funds, factors, and diversification in arbitrage pricing models. Econometrica: Journal of the Econometric Society, 1305-1323.
+- Chamberlain, G. and Rothschild, M. (1983). Arbitrage, factor structure, and meanvariance analysis on large asset markets. Econometrica, 51(5):1281–1304.
 - Tipping, M. E., & Bishop, C. M. (1999). Probabilistic principal component analysis. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 61(3), 611-622.
 - James, W., & Stein, C. (1961). Estimation with quadratic loss Proceedings of the Fourth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Contributions to the Theory of Statistics, Berkeley.
 - Tikhonov, A. N. (1963). On the solution of ill-posed problems and the method of regularization. In Doklady Akademii Nauk (Vol. 151, No. 3, pp. 501-504). Russian Academy of Sciences.
