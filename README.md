@@ -363,13 +363,73 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 ```R
 
 ## Install required packages in R
-install.packages("GMM")
-library(GMM)
+install.packages("gmm")
+library(gmm)
 
 set.seed(1234)
 
+## Example 1: Simple GMM iterative method for parameter estimation
+g1 <- function(theta,x) 
+{
+  m1 <- (theta[1]-x)
+  m2 <- (theta[2]^2 - (x - theta[1])^2)
+  m3 <- x^3-theta[1]*(theta[1]^2+3*theta[2]^2)
+  f <- cbind(m1,m2,m3)
+  return(f) 
+}
 
+Dg <- function(tet,x)
+{
+  G <- matrix(c( 1,2*(-tet[1]+mean(x)), -3*tet[1]^2-3*tet[2]^2,0, 2*tet[2],
+                 -6*tet[1]*tet[2]), nrow=3,ncol=2)
+  return(G)
+}
 
+n  <- 200
+x1 <- rnorm(n, mean = 4, sd = 2)
+
+##################
+## Output:
+##################
+
+> print(results <- gmm(g1,x1,c(mu = 0, sig = 0), grad = Dg))
+Method
+ twoStep 
+
+Objective function value:  0.01107618 
+
+    mu     sig  
+4.1775  2.0662  
+
+Convergence code =  0
+
+> summary(results)
+
+Call:
+gmm(g = g1, x = x1, t0 = c(mu = 0, sig = 0), gradv = Dg)
+
+Method:  twoStep 
+
+Kernel:  Quadratic Spectral(with bw =  0.214 )
+
+Coefficients:
+     Estimate     Std. Error   t value      Pr(>|t|)   
+mu    4.1775e+00   1.4023e-01   2.9791e+01  5.1026e-195
+sig   2.0662e+00   9.4414e-02   2.1884e+01  3.6835e-106
+
+J-Test: degrees of freedom is 1 
+                J-test   P-value
+Test E(g)=0:    2.21524  0.13665
+
+Initial values of the coefficients
+      mu      sig 
+4.162791 2.085222 
+
+#############
+Information related to the numerical optimization
+Convergence code =  0 
+Function eval. =  61 
+Gradian eval. =  NA 
 
 ```
 
