@@ -38,6 +38,9 @@ When running a simulation study is important to be able to replicate the same re
 
 ```
 
+Furthermore, it is convenient to have the seed set randomly every time a program is run, so that the results are independent each time. To do this, one option is to use information from the computer itself, such as the current time or the process number assigned to the program that is running. 
+
+
 # [A]. Optimization Techniques and Dimensionality Reduction
 
 ## [A1]. Portfolio Optimization Techniques 
