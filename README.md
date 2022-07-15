@@ -177,9 +177,6 @@ Further investment strategies can be considered, however the optimization proble
 
 $$Q =  \underset{ w_1,...,w_N \geq 0 }{  \mathsf{sup} }  \bigg[ \phi(w_1,...,w_N) | w_1,...,w_N  \bigg].$$
 
-Related assumptions include
-
-$$| \mathbf{\mu}^{\top} \hat{\mathbf{w}}^{*} - \mathbf{r}^{*} | \overset{p}{\to} 0 \ \ \text{and} \ \ | (\mathbf{\hat{w^{*}}}^{\top} \mathbf{\Sigma} \mathbf{\hat{w^{*}}})^{1/2} - \sigma | \overset{p}{\to} 0$$.
 
 ## References
 
