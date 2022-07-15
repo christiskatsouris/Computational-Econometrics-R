@@ -379,8 +379,8 @@ In other words, the statistical geometry of the GMM estimator minimizes the dist
 1. Understand the basic philosophy and tools of computational algorithms for solving convex problems (e.g., optimal portfolio allocation, asset pricing problems, GMM estimation).
 2. Be able to apply computational algorithms to data-driven methodologies (e.g., use of the iterated GMM for inference purposes). 
 3. Understand the basic properties of convergence rates for computational algorithms (e.g., for computational efficieny and asymptotic theory analysis purposes). 
-4. Be able to implement estimation and optimization techniques to economic, finance and actuarial data.
-5. Be able to apply statistical testing procedures (such as tests for stochastic dominance) to evaluate the performance of optimization schemes. 
+4. Be able to apply statistical testing procedures (such as tests for stochastic dominance) to evaluate the performance of optimization schemes. 
+5. Be able to implement estimation and optimization techniques to economic, finance and actuarial data.
 6. Be able to use Statistical/Econometric Programming Software such as R, Matlab or Stata.  
 
 # Disclaimer
