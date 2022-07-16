@@ -468,7 +468,7 @@ Consider the GMM estimation for the following econometric specification.
 
 [2] Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
 
-[3] Hayashi, F. (2011). Econometrics. Princeton University Press.
+[3] Hayashi, F. (2001). Econometrics. Princeton University Press.
 
 [4] White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge University Press.
 
