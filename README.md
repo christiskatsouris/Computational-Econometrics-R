@@ -265,6 +265,8 @@ computational methods which require different approaches in terms of calculating
 
 - Revision Material related to Factor Models can be found [here](https://github.com/christiskatsouris/Notes/Factor_Models_Revision2.pdf).  
 
+<a href="github.com/christiskatsouris/Notes/Factor_Models_Revision2.pdf" target="_blank">PDF.</a>
+
 ## References
 
 - Anderson, T. W. (1963). Asymptotic theory for principal component analysis. The Annals of Mathematical Statistics, 34(1), 122-148.
