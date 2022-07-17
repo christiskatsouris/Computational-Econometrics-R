@@ -10,6 +10,7 @@ Now 'parallel programming' techniques can be employed diffently depending on the
 - Knaus, J. Snowfall: Easier cluster computing (based on snow). R package version 1.84-6; 2013.
 - [Parallel Computation in R.](https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html)
 
+On Extending R with C++ Capabilities: 
 - Eddelbuettel, D., & Balamuta, J. J. (2018). Extending R with C++: A brief introduction to Rcpp. The American Statistician, 72(1), 28-36.
 
 In practise the understanding of some important computing tools and techniques can assist in improving algorithmic efficiency and reduce the execution time. A classic book which covers related topics is:
