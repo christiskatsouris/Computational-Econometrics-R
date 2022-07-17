@@ -282,7 +282,7 @@ computational methods which require different approaches in terms of calculating
 
 # [B]. Iterative Simulation and Estimation Methodologies
 
-There are various iterative simulation techniques depending on the statistical inference problem under examination. A revision on resampling and Monte Carlo Methods from the statistics literature can be found in the [Notes](https://github.com/christiskatsouris/Computational-Econometrics-R/tree/main/Notes) folder of this teaching page. In this Section, we focus on estimation computational algorithms when considering advanced econometric models based on economic theory. 
+There are various iterative simulation techniques depending on the statistical inference problem under examination. A revision on resampling and Monte Carlo Methods from the statistics literature can be found in the [Notes](https://github.com/christiskatsouris/Computational-Econometrics-R/tree/main/Notes) folder of this teaching page. In this Section, we focus on estimation and computational algorithms when considering advanced econometric models based on economic theory. Specifically, we discuss the Minimum Distance Estimation (MDE) method and the Generalized Method of Moments (GMM).
 
 
 ## [B1.] Minimum Distance Estimation Method
