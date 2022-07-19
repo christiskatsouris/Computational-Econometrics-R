@@ -354,7 +354,7 @@ Therefore, we consider any vector g ( n ) in which minimizes the following quadr
 
 $$ R_n( b ) = n^{-1} \sum_{t=1}^n ( y_n - g_t (b) )^{\prime} S ( y_n - g_t (b) )$$
 
-given the observations ( yt : t = 1,...,n ) and some positive definite matrix S, the above expression is called a MDE of b0. Then, concentrating the likelihood function with respect to b, we find that bn (S) minimizes the following expression
+given the observations $( y_t : t = 1,...,n )$ and some positive definite matrix S, the above expression is called a MDE of $b_0$. Then, concentrating the likelihood function with respect to b, we find that bn (S) minimizes the following expression
 
 $$\text{log det} \ \left( n^{-1} \sum_{t=1}^n \left( y_n - g_t (b) \right)^{\prime} \left( y_n - g_t (b) \right) \right).$$
 
