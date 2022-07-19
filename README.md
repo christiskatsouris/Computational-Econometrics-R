@@ -508,7 +508,7 @@ Gradian eval. =  NA
 
 ## Assignment 2
 
-Consider the GMM estimation for the econometric specification that corresponds to the quantile regression (QR) estimator of the the following optimization function: 
+Consider the GMM estimation for the econometric specification that corresponds to the quantile regression (QR) estimator as given by the following optimization function: 
 $$\hat{ \beta } ( \tau ) \in \underset{ \beta \in \mathbb{R}^{p} }{  \text{arg min} } \frac{1}{n} \sum_{t=1}^n \rho_{\tau} \left( Y_t - X_t^{\prime} b \right).$$
 Noticee that equivalently, the QR estimator $\hat{ \beta } ( \tau )$ is also the generalized method of moments (GMM) estimator based on the unconditional moment restriction given by 
 $$\mathbf{E} \bigg[ \bigg( \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \tau ) \bigg) \bigg) . X \bigg] = 0.$$
