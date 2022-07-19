@@ -516,7 +516,7 @@ Noticee that equivalently, the QR estimator $\hat{ \beta } ( \tau )$ is also the
 $$\mathbf{E} \bigg[ \bigg( \tau - \mathbf{1} ( Y \leq X^{\prime} \hat{ \beta } ( \tau ) ) \bigg) X \bigg] = 0.$$
 
 HINT: Notice that when the CQF is modelled via a linear to the regressors function, such that $Q( Y | X ) = X^{\prime} \beta ( \tau )$ or $F_Y ( X^{\prime} \beta ( \tau ) \big| X ) = \tau$, then the coefficient $\beta ( \tau )$ satisfies the conditional moment restriction given by
-$$\mathbf{E} \bigg[ \tau - \mathbf{1} \{ Y \leq X^{\prime} \hat{ \beta } ( \tau ) \} \bigg| X \bigg] = 0.$$
+$$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \tau ) \bigg) \bigg| X \bigg] = 0.$$
 
 ## References
 
