@@ -272,7 +272,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 - Notice that in order to be able to evaluate the effectiveness of the portfolio optimization problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/graph.jpg" width="450"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/graph.jpg" width="650"/>
 
 
 ```R
