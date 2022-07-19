@@ -259,9 +259,13 @@ $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\
 
 (iii). Investors are allowed to diversify between assets with a corresponding N-dimensional vector of portfolio weights.
 
-Secondly, a testing hypothesis of a stochastic dominance between two alternative distribution of returns has the following form:
+Secondly, a testing hypothesis of a stochastic dominance between two alternative distribution of returns has the form given below. Under the null hypothesis it holds that 
 
+$$H_0: F_{Y|X}(y | x_1 ) \geq F_{Y|X}(y | x_2) \ \forall \ y, x_1, x_2 \in (0,1) \ \text{with} \ x_1 \leq x_2.$$  
 
+While under the alternative hypothesis the space of interest is given by
+
+$$H_1 &: F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 \in (0,1) \ \text{with} \ x_1 \leq x_2.$$
 
 
 ### Remarks
