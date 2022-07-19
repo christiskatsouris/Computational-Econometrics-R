@@ -248,7 +248,7 @@ $$\hat{\mathbf{w}}^* = \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma}^{*}.$$
 
 ## [A2]. Testing for Stochastic Dominance
 
-Tests for Stochastic Dominance are usually nonparametric tests with mainy applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. The main idea of such a statistical test is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Then, the following assumptions should hold for the statistical validiy of these tests.  
+Tests for Stochastic Dominance are usually nonparametric tests with mainy applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. The main idea of such a statistical test is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Then, the following assumptions should hold for the statistical validity when testing for stochastic dominance:
 
 (i).   Investors use an expected utility maximization problem along with the portfolio returns. 
 (ii).  The asset returns are assumed to be serially independent and identically distributed with 
@@ -259,7 +259,7 @@ $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\
 
 ### Remarks
 
-Notice that in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
+- Notice that in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
 
 ```R
 
