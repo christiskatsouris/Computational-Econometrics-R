@@ -293,7 +293,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 Finance, 58(5):1905-1931.
 - Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 
-## Task 1
+## Assignment 1
 
 Following the following steps construct a small Monte Carlo simulation study where the portfolio performance is evaluated using different constraints (thus changing the investment strategy).
 
@@ -508,11 +508,12 @@ Gradian eval. =  NA
 
 ```
 
-## Task 2
+## Assignment 2
 
-Consider the GMM estimation for the following econometric specification. 
-
-
+Consider the GMM estimation for the econometric specification that corresponds to the quantile regression (QR) estimator of the the following optimization function: 
+$$\hat{ \beta } ( \tau ) \in \underset{ \beta \in \mathbb{R}^{p} }{  \text{arg min} } \frac{1}{n} \sum_{t=1}^n \rho_{\tau} \left( Y_t - X_t^{\prime} b \right).$$
+Noticee that equivalently, the QR estimator $\hat{ \beta } ( \tau )$ is also the generalized method of moments (GMM) estimator based on the unconditional moment restriction given by 
+$$\mathbf{E} \bigg[ \bigg( \tau - \mathbf{1} \{ Y \leq X^{\prime} \hat{ \beta } ( \tau ) \} \bigg) X \bigg] = 0.$$
 
 ## References
 
