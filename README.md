@@ -63,7 +63,7 @@ Furthermore, it is convenient to have the seed set randomly every time a program
 
 ## [A1]. Portfolio Optimization Techniques 
 
-Consider $r_N$ to be the $N-$dimensional vector of stock returns at time t. In other words, this is considered to be a strictly stationary time series of an (N x 1) observed vector of returns (e.g., log returns) with population moments given by 
+Consider $r_N$ to be the N-dimensional vector of stock returns at time t. In other words, this is considered to be a strictly stationary time series of an (N x 1) observed vector of returns (e.g., log returns) with population moments given by 
 
 $$ \boldsymbol{\mu} = \mathbb{E}[ \boldsymbol{r}_t ], \ \ \text{where} \ \boldsymbol{\mu} \in \mathbb{R}^{N \times 1}.$$
 
@@ -72,7 +72,7 @@ representing the vector of expected returns for a given time period, e.g., a his
 $$\boldsymbol{\Sigma}= \mathsf{Cov}[ \boldsymbol{r}_t ] = \mathbb{E}[ \boldsymbol{r}_t \boldsymbol{r}_t^{\top} ] - \boldsymbol{\mu} \boldsymbol{\mu}^{\top}.$$
 representing the (unconditional) covariance matrix (often called volatility matrix) of stock returns for the time period $t=1,...,T$. 
 
-Moreover, let R_t+1 denote the continuous random variable which represents the portfolio returns at time t+1 which is given by
+Moreover, let $R_t+1$ denote the continuous random variable which represents the portfolio returns at time t+1 which is given by
 $$R_{t+1} = \sum_{i=1}^N w_{i,t} r_{i,t+1} \equiv \boldsymbol{w}^{\top} \boldsymbol{r}_{t+1}.$$
 
 Then, the traditional minimum-variance portfolio allocation problem
