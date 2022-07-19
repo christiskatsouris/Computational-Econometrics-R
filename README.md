@@ -259,8 +259,17 @@ $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\
 
 Additionally, in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we may also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the centrality structure or network topology of assets within the network. For example, the effectiveness of an investment strategy is feasible to be evaluated under the assumption that there are no linkages or spillover effects between the nodes of the network.
 
+```R
+
+## Examples 
+
+
+```
+
 ### References
 - Chou, P. H., & Zhou, G. (2006). Using Bootstrap to Test Portfolio Efficiency. Annals of Economics & Finance, 7(2).
+
+(More references)
 
 ## Task 1
 
@@ -282,6 +291,14 @@ The increase in computational power and the capacity to compute the asset alloca
 computational methods which require different approaches in terms of calculating the optimal portfolio asset allocation problem. In particular a seminal econometic framework in this direction is proposed by Chamberlain, G. and Rothschild, M. (1983) who examine the properties of the first two moments of the joint distribution of stock returns as the number of assets goes to infinity. The proposed covariance matrix decomposition captures the notion that the stochastic structure of asset returns is determined by a small number of factors, while the remaining factors can be considered negligible.  Further important studies in the direction of econometric techniques for estimating moments for large datasets include the methodology of principal components analysis, which we study in this section, for estimating large covariance matrices (see, Anderson et al (1963)) as well as the factor models estimation of large dimensions (see, Bai (2003)). 
 
 - Revision Material related to Factor Models can be found in the [Notes](https://github.com/christiskatsouris/Computational-Econometrics-R/tree/main/Notes) folder of this teaching page. 
+
+```R
+
+## Examples 
+
+
+```
+
 
 ## References
 
