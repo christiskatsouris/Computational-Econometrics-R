@@ -246,7 +246,7 @@ $$\hat{\mathbf{w}}^* = \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma}^{*}.$$
 - Zhao, Z., Ledoit, O., & Jiang, H. (2020). Risk reduction and efficiency increase in large portfolios: leverage and shrinkage. University of Zurich, Department of Economics, Working Paper, (328).
 
 
-### [A1.1.] Testing for Stochastic Dominance
+## [A2]. Testing for Stochastic Dominance
 
 Tests for Stochastic Dominance are usually nonparametric tests with mainy applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. The main idea of such a statistical test is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Then, the following assumptions should hold for the statistical validiy of these tests.  
 
@@ -289,7 +289,7 @@ Following the following steps construct a small Monte Carlo simulation study whe
 
 
 
-## [A2]. Principal Component Analysis 
+## [A3]. Principal Component Analysis 
 
 The increase in computational power and the capacity to compute the asset allocation for large portfolios has moved the literature towards high intensive statistical and computational methods which require different approaches in terms of calculating the optimal portfolio asset allocation problem. In particular a seminal econometic framework in this direction is proposed by Chamberlain, G. and Rothschild, M. (1983) who examine the properties of the first two moments of the joint distribution of stock returns as the number of assets goes to infinity. The proposed covariance matrix decomposition captures the notion that the stochastic structure of asset returns is determined by a small number of factors, while the remaining factors can be considered negligible.  Further important studies in the direction of econometric techniques for estimating moments for large datasets include the methodology of principal components analysis, which we study in this section, for estimating large covariance matrices (see, Anderson et al (1963)) as well as the factor models estimation of large dimensions (see, Bai (2003)). Overall, when considering high dimensional data environments, estimation and robust statistical inference can be affected by the curse of dimensionality. Thus, one of the first techniques proposed in the literature to deal with the aspects of dimensionality reduction is the principal component analysis (PCA).  
 
