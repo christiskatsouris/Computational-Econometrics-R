@@ -265,7 +265,7 @@ $$H_0: F_{Y|X}(y | x_1 ) \geq F_{Y|X}(y | x_2) \ \forall \ y, x_1, x_2 \in (0,1)
 
 While under the alternative hypothesis the space of interest is given by
 
-$$H_1 &: F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 \in (0,1) \ \text{with} \ x_1 \leq x_2.$$
+$$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 \in (0,1) \ \text{with} \ x_1 \leq x_2.$$
 
 
 ### Remarks
@@ -281,8 +281,9 @@ $$H_1 &: F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2
 
 ### References
 - Chou, P. H., & Zhou, G. (2006). Using Bootstrap to Test Portfolio Efficiency. Annals of Economics & Finance, 7(2).
-
-(More references)
+- Post, T. (2003). Empirical tests for stochastic dominance eciency. The Journal of
+Finance, 58(5):1905-1931.
+Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 
 ## Task 1
 
