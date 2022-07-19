@@ -2,6 +2,8 @@
 
 A light tutotial page on various aspects related to Computational Econometrics issues (Drafted: July 2022). 
 
+## On R computing practises  
+
 In many of the following econometric methods (especially when considering high-dimensional inference problems or when implementing resampling methodologies such as permutation or bootstrap testing) using Econometric/Statistical Programming Software (such as R, Matlab or Stata) in order to reduce the execution time requires to apply parallel programming techniques and/or distributing tasks using HPC.   
 
 Now 'parallel programming' techniques can be employed diffently depending on the programming environment as well as on the structure of the algorithm under consideration. Firstly, these techniques do not necessarily refer to the econometric estimation method, however many times the executation time can be reduced when the programming algorithm is 'optimized' in terms of the way that operations/functions are executed. Consider for instance, the use of the Bootstrap Monte Carlo Algorithm to obtain critical values for the underline distribution of a test statistic which requires simulation techniques to obtain asymptotic approxiations. Therefore, running R scripts using RStudio on Personal Machines can be speed-up by using build-in packages that perform parallel optimization (see, R package ['parallel'](https://cran.r-project.org/web/views/HighPerformanceComputing.html)). Secondly, considering running parallel batch jobs across different R scripts using HPC then this approach of parallelsim provides a way for the optimal execution of those R scripts that use the available computer resources (e.g., computing capabilities) as efficient as possible. See the following bibliography:
@@ -16,6 +18,8 @@ On Extending R with C++ Capabilities:
 In practise the understanding of some important computing tools and techniques can assist in improving algorithmic efficiency and reduce the execution time. A classic book which covers related topics is:
 
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
+
+## Random Generating Numbers 
 
 Question: What is randomness? Can we define what a 'random number' is?
 
