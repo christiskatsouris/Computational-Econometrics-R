@@ -1,6 +1,6 @@
 # Computational-Econometrics-R
 
-A light tutotial page on various aspects related to Computational Econometrics issues (Drafted: July 2022). 
+A light tutorial page on various aspects related to Computational Econometrics issues (Drafted: July 2022). 
 
 ## R Computing/Parallelism practises  
 
