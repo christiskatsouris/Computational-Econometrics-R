@@ -72,14 +72,14 @@ representing the vector of expected returns for a given time period, e.g., a his
 $$\boldsymbol{\Sigma}= \mathsf{Cov}[ \boldsymbol{r}_t ] = \mathbb{E}[ \boldsymbol{r}_t \boldsymbol{r}_t^{\top} ] - \boldsymbol{\mu} \boldsymbol{\mu}^{\top}.$$
 representing the (unconditional) covariance matrix (often called volatility matrix) of stock returns for the time period $t=1,...,T$. 
 
-Moreover, let $R_t+1$ denote the continuous random variable which represents the portfolio returns at time t+1 which is given by
+Moreover, let $R_{t+1}$ denote the continuous random variable which represents the portfolio returns at time t+1 which is given by
 $$R_{t+1} = \sum_{i=1}^N w_{i,t} r_{i,t+1} \equiv \boldsymbol{w}^{\top} \boldsymbol{r}_{t+1}.$$
 
 Then, the traditional minimum-variance portfolio allocation problem
 
 $$\underset{ \boldsymbol{w} \in \mathbb{R}^N }{ \mathsf{arg min} } \ \boldsymbol{w}^{\top} \boldsymbol{\Sigma} \boldsymbol{w} \ \ \ \text{subject to} \ \ \ \boldsymbol{w}^{\top} \boldsymbol{1} = 1.$$
 
-where w = ( w1,..., wN ) represents the weights put on different assets and 1 is a N-dimensional vector with all entries being 1. Then, the optimal vector of weights which has a closed-form solution is given by the following expression: 
+where $w = ( w_1,..., w_N )$ represents the weights put on different assets and 1 is a N-dimensional vector with all entries being 1. Then, the optimal vector of weights which has a closed-form solution is given by the following expression: 
 
 $$w^* = \frac{ \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }{ \boldsymbol{1}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{1} }.$$
 
