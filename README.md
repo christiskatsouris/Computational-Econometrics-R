@@ -222,6 +222,9 @@ Define with $\boldsymbol{\Theta} = \boldsymbol{I} - \frac{ \boldsymbol{1} }{ \bo
 
 $$\hat{\mathbf{w}}^* = \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma}^{*}.$$
 
+which is equivalent to the following shrinkage norm: 
+
+$$\hat{\gamma}^{*} = \underset{ \mathbf{\gamma \in \mathbb{R} } }{\text{argmin}} = (  \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma} )^{\top} \mathbf{ \hat{\Sigma} } (  \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma} ).$$
 
 ## References
 
