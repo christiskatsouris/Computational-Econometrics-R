@@ -248,7 +248,9 @@ $$\hat{\mathbf{w}}^* = \frac{\mathbf{1}}{n} - \mathbf{Q} \hat{\gamma}^{*}.$$
 
 ## [A2]. Testing for Stochastic Dominance
 
-Tests for Stochastic Dominance are usually nonparametric tests with mainy applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. The main idea of such a statistical test is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Then, the following assumptions should hold for the statistical validity when testing for stochastic dominance:
+A suitable statistical methodology for testing the statistical superiority of one distribution over another is to test for first-order stochastic dominance between two distribution functions. Tests for Stochastic Dominance are usually nonparametric tests with many applications when comparing observationally equivalent structures. Under certain regularity conditions stochastic dominance tests can be employed to evaluate the stochastic dominance of portfolios and portfolio returns. In particular, Post (2003) provide an extensive examination of various stochastic dominance test within the portfolio allocation framework. Morover, the framework of Linton et al. (2014) provide a testing framework of stochastic dominance efficiency of a given portfolio and can be particular useful in evaluating alternative options of efficient frontiers. Furthermore, Second-Order Stochastic Dominance can be evaluated within the framework of expected utility maximization. 
+
+The main idea of such a statistical testing procedure is the interest in examining stochastic monotonic relationships for economic and financial relationships. Consider for example, two continuous random variables X and Y both supported on the space [0,1]. Firstly, the following assumptions should hold for the statistical validity when testing for stochastic dominance:
 
 (i).   Investors use an expected utility maximization problem along with the portfolio returns. 
 (ii).  The asset returns are assumed to be serially independent and identically distributed with 
@@ -257,9 +259,14 @@ $$E[ \mathbf{x} ] = \mathbf{\mu} \ \ \ \text{and} \ \ E[ (\mathbf{x} - \mathbf{\
 
 (iii). Investors are allowed to diversify between assets with a corresponding N-dimensional vector of portfolio weights.
 
+Secondly, a testing hypothesis of a stochastic dominance between two alternative distribution of returns has the following form:
+
+
+
+
 ### Remarks
 
-- Notice that in order to be able to evaluate the effectiveness of the portfolio allocation problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
+- Notice that in order to be able to evaluate the effectiveness of the portfolio optimization problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
 
 ```R
 
