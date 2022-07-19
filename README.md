@@ -293,6 +293,12 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 Finance, 58(5):1905-1931.
 - Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 
+## Self-Assesment Questions:
+
+1. What are the main econometric challenges when optimizing large portfolios?
+
+3. Can we construct an optimization function that relates centrality measures with risk measures? In particular, an estimation exercise which can shed light on computational aspects related to such a convex optimization approach is to implement an out-of-sample forecasting scheme (e.g., with a moving window of fixed length) based on the GMVP where penalization of central nodes is applied sequentially by removing one-central node at a time from the graph. The above computational problem can be also done by varying the centrality measures (see, this [page](https://github.com/christiskatsouris/Network-Analysis-R) for definitions) as a robustness check.      
+
 ## Assignment 1
 
 Following the following steps construct a bootstrap resampling simulation study where the portfolio performance is evaluated using different constraints (thus changing the investment strategy - focusing on the GMVP and the min-var optimization problems).
@@ -301,14 +307,6 @@ Following the following steps construct a bootstrap resampling simulation study 
 - Step 2: Simulate from the Multivariate normal distribution the elements of the covariance matrix.
 - Step 3: Compare the convergence properties of the optimization algorithm and the performance of the optimal portfolio using (i) the variance-covariance matrix and (ii) using a GARCH-based covariance matrix estimation method. 
 - Step 4: Repeat the procedure B times for the bootstrap step and obtain the empirical variance and MSE in order to compare the different optimization methods and covariance matrix estimation approaches.
-
-## Self-Assesment Questions:
-
-1. What are the main econometric challenges when optimizing large portfolios?
-
-3. Can we construct an optimization function that relates centrality measures with risk measures? In particular, an estimation exercise which can shed light on computational aspects related to such a convex optimization approach is to implement an out-of-sample forecasting scheme (e.g., with a moving window of fixed length) based on the GMVP where penalization of central nodes is applied sequentially by removing one-central node at a time from the graph. The above computational problem can be also done by varying the centrality measures (see, this [page](https://github.com/christiskatsouris/Network-Analysis-R) for definitions) as a robustness check.      
-
-
 
 
 ## [A3]. Principal Component Analysis 
