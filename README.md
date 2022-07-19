@@ -295,12 +295,12 @@ Finance, 58(5):1905-1931.
 
 ## Assignment 1
 
-Following the following steps construct a small Monte Carlo simulation study where the portfolio performance is evaluated using different constraints (thus changing the investment strategy).
+Following the following steps construct a bootstrap resampling simulation study where the portfolio performance is evaluated using different constraints (thus changing the investment strategy - focusing on the GMVP and the min-var optimization problems).
 
-- Step 1: Choose an appropriate optimization methodology and set-up the constraint optimization problem with the necessary conditions. 
-- Step 2: Compare the convergence properties of the optimization algorithm and the performance of the optimal portfolio using variance-covariance matrix versus using a GARCH-based covariance matrix. 
-- Step 3: Simulate from the Multivariate normal distribution the elements of the covariance matrix.
-- Step 4: Repeat the procedure B times for the Monte Carlo step and obtain the empirical variance and MSE in order to compare the different optimization methods.
+- Step 1: Choose an appropriate optimization methodology and set-up the constraint optimization problem using necessary matrix algebra tools (e.g., for instance the pseudo-inverse method for inversting S can be employed). 
+- Step 2: Simulate from the Multivariate normal distribution the elements of the covariance matrix.
+- Step 3: Compare the convergence properties of the optimization algorithm and the performance of the optimal portfolio using (i) the variance-covariance matrix and (ii) using a GARCH-based covariance matrix estimation method. 
+- Step 4: Repeat the procedure B times for the bootstrap step and obtain the empirical variance and MSE in order to compare the different optimization methods and covariance matrix estimation approaches.
 
 ## Self-Assesment Questions:
 
