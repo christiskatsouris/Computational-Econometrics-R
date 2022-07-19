@@ -2,7 +2,7 @@
 
 A light tutotial page on various aspects related to Computational Econometrics issues (Drafted: July 2022). 
 
-## On R computing practises  
+## R Computing/Parallelism practises  
 
 In many of the following econometric methods (especially when considering high-dimensional inference problems or when implementing resampling methodologies such as permutation or bootstrap testing) using Econometric/Statistical Programming Software (such as R, Matlab or Stata) in order to reduce the execution time requires to apply parallel programming techniques and/or distributing tasks using HPC.   
 
