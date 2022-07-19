@@ -63,7 +63,7 @@ Furthermore, it is convenient to have the seed set randomly every time a program
 
 ## [A1]. Portfolio Optimization Techniques 
 
-Consider rN to be the N-dimensional vector of stock returns at time t. In other words, this is considered to be a strictly stationary time series of an (N x 1) observed vector of returns (e.g., log returns) with population moments given by 
+Consider $r_N$ to be the $N-$dimensional vector of stock returns at time t. In other words, this is considered to be a strictly stationary time series of an (N x 1) observed vector of returns (e.g., log returns) with population moments given by 
 
 $$ \boldsymbol{\mu} = \mathbb{E}[ \boldsymbol{r}_t ], \ \ \text{where} \ \boldsymbol{\mu} \in \mathbb{R}^{N \times 1}.$$
 
