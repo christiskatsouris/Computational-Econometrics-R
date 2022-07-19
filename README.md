@@ -284,7 +284,7 @@ Following the following steps construct a small Monte Carlo simulation study whe
 
 1. What are the main econometric challenges when optimizing large portfolios?
 
-3. Can we construct an optimization function that relates centrality measures with risk measures? In particular, an estimation exercise which can shed light on computational aspects related to such a convex optimization approach is to implement an out-of-sample forecasting scheme (e.g., with a moving window of fixed length) based on the GMVP where penalization of central nodes is applied sequentially by removing one-central node at a time from the graph. This can be also done using different centrality measures (see, this [page](https://github.com/christiskatsouris/Network-Analysis-R) for definitions) as a robustness check.      
+3. Can we construct an optimization function that relates centrality measures with risk measures? In particular, an estimation exercise which can shed light on computational aspects related to such a convex optimization approach is to implement an out-of-sample forecasting scheme (e.g., with a moving window of fixed length) based on the GMVP where penalization of central nodes is applied sequentially by removing one-central node at a time from the graph. The above computational problem can be also done by varying the centrality measures (see, this [page](https://github.com/christiskatsouris/Network-Analysis-R) for definitions) as a robustness check.      
 
 
 
