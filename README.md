@@ -513,7 +513,10 @@ Gradian eval. =  NA
 Consider the GMM estimation for the econometric specification that corresponds to the quantile regression (QR) estimator of the the following optimization function: 
 $$\hat{ \beta } ( \tau ) \in \underset{ \beta \in \mathbb{R}^{p} }{  \text{arg min} } \frac{1}{n} \sum_{t=1}^n \rho_{\tau} \left( Y_t - X_t^{\prime} b \right).$$
 Noticee that equivalently, the QR estimator $\hat{ \beta } ( \tau )$ is also the generalized method of moments (GMM) estimator based on the unconditional moment restriction given by 
-$$\mathbf{E} \bigg[ \bigg( \tau - \mathbf{1} \{ Y \leq X^{\prime} \hat{ \beta } ( \tau ) \} \bigg) X \bigg] = 0.$$
+$$\mathbf{E} \bigg[ \bigg( \tau - \mathbf{1} ( Y \leq X^{\prime} \hat{ \beta } ( \tau ) ) \bigg) X \bigg] = 0.$$
+
+HINT: Notice that when the CQF is modelled via a linear to the regressors function, such that $Q( Y | X ) = X^{\prime} \beta ( \tau )$ or $F_Y ( X^{\prime} \beta ( \tau ) \big| X ) = \tau$, then the coefficient $\beta ( \tau )$ satisfies the conditional moment restriction given by
+$$\mathbf{E} \bigg[ \tau - \mathbf{1} \{ Y \leq X^{\prime} \hat{ \beta } ( \tau ) \} \bigg| X \bigg] = 0.$$
 
 ## References
 
@@ -544,7 +547,6 @@ $$\mathbf{E} \bigg[ \bigg( \tau - \mathbf{1} \{ Y \leq X^{\prime} \hat{ \beta } 
 [7] Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
 
 [8] Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
-
 
 
 # Learning Outcomes
