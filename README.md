@@ -19,6 +19,8 @@ In practise the understanding of some important computing tools and techniques c
 
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 
+Lastly, once a statistical/econometrics project containing R code which can be compiled has matured to the point of sharing it with collaborators or using it within a parallel computing environment, then the ideal way forward is to embed the code within an R package (see,  Eddelbuettel and Balamuta (2018)).     
+
 ## Random Generating Numbers 
 
 Question: What is randomness? Can we define what a 'random number' is?
