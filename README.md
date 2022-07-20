@@ -232,12 +232,15 @@ $$\hat{\gamma}^{*} = \underset{ \mathbf{\gamma \in \mathbb{R} } }{\text{argmin}}
 
 A proof of the above equivalence with respect to the closed-form solution of the GMVP can be found in Maillet, Tokpavi and Vaucher (2015).
 
+Furthermore, eigenvalue analysis can be employed to the covariance matrix which allows to decompose the matrix in accordance with the rank statistics of the eigenvalues. Various methodologies exist in the literature to obtain these statistics (see, Yu (1991)). Moreover, when the covariance matrix is constructed based on a factor structure then further methodologies have been developed to obtain the common factors as well as to bound the estimation error when estimating eigenvalues (see, Fan et al. (2020)). 
+
 ## References
 
 - Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
 - Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
 - Maillet, B., Tokpavi, S., & Vaucher, B. (2015). Global minimum variance portfolio optimisation under some model risk: A robust regression-based approach. European Journal of Operational Research, 244(1), 289-299.
 - Brandt, M. W., & Santa‐Clara, P. (2006). Dynamic portfolio selection by augmenting the asset space. The journal of Finance, 61(5), 2187-2217.
+- Fan, J., Guo, J., & Zheng, S. (2020). Estimating number of factors by adjusted eigenvalues thresholding. Journal of the American Statistical Association, 1-10.
 - Markowitz, H.M. 1952. Portfolio selection. Journal of Finance 7(1), March, 77–91.
 - Markowitz, H.M. 1956. The optimization of a quadratic function subject to linear constraints. Naval Research Logistics Quarterly 3, 111–33.
 - Markowitz, H.M. 1959. Portfolio Selection: Efficient Diversification of Investments. New Haven: Yale University Press. Reprinted, New York: John Wiley and Sons, 1970.
