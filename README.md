@@ -281,6 +281,12 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 
 ```R
+# Finite out-of-sample estimation window of fixed length (h = 100).  
+
+```
+
+
+```R
 
 ## Examples 
 
