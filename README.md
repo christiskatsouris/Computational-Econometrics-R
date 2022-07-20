@@ -144,7 +144,7 @@ In practise, the additional condition of having the weight vector being between 
 
 - To implement the aformentioned procedure in R, we can employ a specific type of optimization algorithms called ['Genetic Algorithm'](https://rpubs.com/Argaadya/550805) (GA) which employs an iterative procedure to converge to an approximate solution given a prespecified number of iterations.  
 
-- The main idea of the the 'Genetic Algorithm' is that it considers a fitness function. The algorithm begins with a population of N 'individuals" (nodes or stocks in the financial network) with DNA or weights $w_i$ for i = 1,...,N. The fitness of each individual is evaluated based on a fitness function in a manner bearing certain analogies to the exchange of DNA in biological organisms. Heuristically, the algorithm converges for a large number of replications which results to the optimal vector of weights $\hat{w}_i$.  
+- The main idea of the the 'Genetic Algorithm' is that it considers a fitness function. The algorithm begins with a population of N "individuals" (nodes or stocks in the financial network) with DNA or weights $w_i$ for i = 1,...,N. The fitness of each individual is evaluated based on a fitness function in a manner bearing certain analogies to the exchange of DNA in biological organisms. Heuristically, the algorithm converges for a large number of replications which results to the optimal vector of weights $\hat{w}_i$ (see, Halbert White, (1989)).  
 
 ```R
 
@@ -242,6 +242,7 @@ A proof of the above equivalence with respect to the closed-form solution of the
 - Markowitz, H.M. 1956. The optimization of a quadratic function subject to linear constraints. Naval Research Logistics Quarterly 3, 111–33.
 - Markowitz, H.M. 1959. Portfolio Selection: Efficient Diversification of Investments. New Haven: Yale University Press. Reprinted, New York: John Wiley and Sons, 1970.
 - Senneret, M., Malevergne, Y., Abry, P., Perrin, G., & Jaffres, L. (2016). Covariance versus precision matrix estimation for efficient asset allocation. IEEE Journal of Selected Topics in Signal Processing, 10(6), 982-993.
+- White, H. (1989). Learning in artificial neural networks: A statistical perspective. Neural computation, 1(4), 425-464.
 - Yu, K. B. (1991). Recursive updating the eigenvalue decomposition of a covariance matrix. IEEE Transactions on Signal Processing, 39(5), 1136-1145.
 
 ## Further Reading
