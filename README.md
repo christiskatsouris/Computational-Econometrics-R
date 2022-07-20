@@ -140,7 +140,11 @@ optimal_weights_function_foc <- function( N = N, Sigma = Sigma )
 
 ```
 
-In practise, the additional condition of having the weight vector being between zero and one is necessary when constructing the optimization problem to avoid infeasible solutions especially in the case where the optimal portfolio problem is constructed based on small number of observations. To implement the aformentioned procedure in R, we can employ a specific type of optimization algorithms called ['Genetic Algorithm'](https://rpubs.com/Argaadya/550805) (GA) which employs an iterative procedure to converge to an approximate solution given a prespecified number of iterations.  
+In practise, the additional condition of having the weight vector being between zero and one is necessary when constructing the optimization problem to avoid infeasible solutions especially in the case where the optimal portfolio problem is constructed based on small number of observations. 
+
+- To implement the aformentioned procedure in R, we can employ a specific type of optimization algorithms called ['Genetic Algorithm'](https://rpubs.com/Argaadya/550805) (GA) which employs an iterative procedure to converge to an approximate solution given a prespecified number of iterations.  
+
+- The main idea of the the 'Genetic Algorithm' is that it considers a fitness function. The algorithm begins with a population of N 'individuals" (nodes or stocks in the financial network) with DNA or weights $w_i$ for i = 1,...,N. The fitness of each individual is evaluated based on a fitness function in a manner bearing certain analogies to the exchange of DNA in biological organisms. Heuristically, the algorithm converges for a large number of replications which results to the optimal vector of weights $\hat{w}_i$.  
 
 ```R
 
@@ -216,7 +220,7 @@ $$Q =  \underset{ w_1,...,w_N \geq 0 }{  \mathsf{sup} }  \bigg[ \phi(w_1,...,w_N
 
 - Notice that for the implementation of the GA algorithm in R the maximum number of iterations (e.g., set to 1000) is considered to be a stopping rule for the convergence rate of the optimization problem. However, depending from the investment strategy and the corresponding constraints the 'optimal number' of iterations that ensure convergence to the approximate optimal vector can vary.  
 
-- An alternative way of obtaining the solution of the optimal portfolio choice problem (minimum-variance investement strategy or Global Minimu Variance Portflio - GMVP) is to use the least squares projection method (see, Maillet et al. (2015)). 
+- An alternative way of obtaining the solution of the optimal portfolio choice problem (minimum-variance investement strategy, i.e.,  Global Minimum Variance Portflio (GMVP)) is to use the least squares projection method (see, Maillet et al. (2015)). 
 
 Define with $\boldsymbol{\Theta} = \boldsymbol{I} - \frac{ \boldsymbol{1} }{ \boldsymbol{1}^{\top} }$  and $\boldsymbol{Q}$ an $n \times (N-1)$ matrix which has as its columns the $(N-1)$ non-zero eigenvalues of the matrix  $\mathbf{\Theta}$ and it satisfies the properties $\mathbf{Q}^{\top}\mathbf{1} = 0 \ \text{and} \  \mathbf{Q}^{\top} \mathbf{Q} = \mathbf{I}_{N-1}$, then the solution of the GMVP using least squares regression is given as below
 
