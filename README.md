@@ -363,7 +363,7 @@ The increase in computational power and the capacity to compute the asset alloca
 There are various iterative simulation techniques depending on the statistical inference problem under examination. A revision on resampling and Monte Carlo Methods from the statistics literature can be found in the [Notes](https://github.com/christiskatsouris/Computational-Econometrics-R/tree/main/Notes) folder of this teaching page. In this Section, we focus on estimation and computational algorithms when considering advanced econometric models based on economic theory. Specifically, we discuss the Minimum Distance Estimation (MDE) method and the Generalized Method of Moments (GMM).
 
 
-## [B1.] Minimum Distance Estimation Method
+## [B1]. Minimum Distance Estimation Method
 
 A particular class of econometric models has parameters which are time-varying. For example, consider the case when evaluating the portfolio performance within an out-of-sample framework in which case one has to estimate the covariance matrix in each moving window. Then, a suitable econometric model to capture these time-varying moment conditions is given by 
 $$y_t = g_t ( b_0 ) + u_t, \ \ \ \ \ \ \ \ \  t = 1,2,...,n$$
@@ -438,7 +438,7 @@ rho2      <- MDE2stageResult$rhohat2stage
 - Koul, H. L. (1986). Minimum distance estimation and goodness-of-fit tests in first-order autoregression. The Annals of Statistics, 1194-1213.
 
 
-## [B2.] Generalized Method of Moments (GMM)
+## [B2]. Generalized Method of Moments (GMM)
 
 An alternative estimation technique to MDE and MLE is the Method of Moments, where the main idea is the mapping of sample moments to population moments. Furthermore, in the case of Generalized Method of Moments (GMM) there are more moments than parameters and thus econometric identification can be achieved. In addition, GMM can be employed regardless of any distributional assumptions which makes it an attractive alternative to MLE especially when Gaussianity assumption is not required.     
 
@@ -551,7 +551,7 @@ $$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \
 
 
 
-## [B3.] Expected Maximization Algorithm (EM)
+## [B3]. Expected Maximization Algorithm (EM)
 
 ## Example 4
 
