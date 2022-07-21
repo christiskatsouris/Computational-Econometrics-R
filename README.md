@@ -232,7 +232,7 @@ $$\hat{\gamma}^{*} = \underset{ \mathbf{\gamma \in \mathbb{R} } }{\text{argmin}}
 
 A proof of the above equivalence with respect to the closed-form solution of the GMVP can be found in Maillet, Tokpavi and Vaucher (2015).
 
-Furthermore, eigenvalue analysis can be employed to the covariance matrix which allows to decompose the matrix in accordance with the rank statistics of the eigenvalues. Various methodologies exist in the literature to obtain these statistics (see, Yu (1991)). Moreover, when the covariance matrix is constructed based on a factor structure then further methodologies have been developed to obtain the common factors as well as to bound the estimation error when estimating eigenvalues (see, Fan et al. (2020)). 
+- Notice that eigenvalue analysis can be employed to the covariance matrix which allows to decompose the matrix in accordance with the rank statistics of the eigenvalues. Various methodologies exist in the literature to obtain these statistics (see, Yu (1991)). Moreover, when the covariance matrix is constructed based on a factor structure then further methodologies have been developed to obtain the common factors as well as to bound the estimation error when estimating eigenvalues (see, Fan et al. (2020)). 
 
 ## References
 
