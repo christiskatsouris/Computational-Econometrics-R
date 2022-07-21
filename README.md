@@ -610,6 +610,8 @@ Any errors or omissions are the responsibility of the author.
 
 The author has benefited by participating in workshops and training sessions related to High Performance Computing both at the University of Southampton as well as at University College London (UCL). 
 
+Further mathematical/theoretical applications related to Numerical Analysis, Scientific Computing or High Performance Computing can be also found on the website of [Prof. Robert Scheichl](https://katana.iwr.uni-heidelberg.de/people/rob/).
+
 # How to Cite a Website
 
 See: https://www.mendeley.com/guides/web-citation-guide/
