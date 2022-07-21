@@ -295,7 +295,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 ### Remark
 
-As we observe from the above diagram there seem to be some difference with respect to the distribution of portfolio risk when considering the eigenvalue versus the page-rank centrality for instance. However, due to the finite sample used to obtain the out-of-sample sequences care should be taken when interpreting these results. Thus, a suitable parallelism approach is necessary in order to obtain the distribution of portfolio risk based on a large sample, which should have indicate a symmetric pattern.   
+As we observe from the above diagram there seem to be some difference with respect to the distribution of portfolio risk when considering the eigenvalue versus the page-rank centrality for instance. However, due to the finite sample used to obtain the out-of-sample sequences, care should be taken when interpreting these results. Thus, a suitable parallelism approach is necessary in order to obtain the distribution of portfolio risk based on a large sample, which should indicate a symmetric pattern. Another aspect is the construction of the covariance matrix, for instance from fairly Gaussian data versus heavy-tailed time series. On the other hand, the proposed risk matrix of Katsouris (2021) has additional dependence features which will need to examined further.   
 
 
 ```R
