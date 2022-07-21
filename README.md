@@ -1,6 +1,8 @@
 # Computational-Econometrics-R
 
-A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022). 
+A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (prepared July 2022). 
+
+My main philosophy (drafted July 2022) with this course is to combine traditional statistical learning methods such as the portfolio optimization problem with computational and numerical methods which are useful for econometric modelling of large datasets. Further extensions can be also considered within a high dimensional environment although these aspects correspond to a more advanced course in Computational Econometrics (i.e., Graduate Level).  
 
 ## R Computing/Parallelism practises  
 
