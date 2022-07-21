@@ -548,7 +548,27 @@ $$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \
 - Lof, M. (2014). GMM Estimation with Non‐causal Instruments under Rational Expectations. Oxford Bulletin of Economics and Statistics, 76(2), 279-286.
 - Park, S. K., Ahn, S. K., & Cho, S. (2011). Generalized method of moments estimation for cointegrated vector autoregressive models. Computational statistics & data analysis, 55(9), 2605-2618.
 - Stock, J. H., & Wright, J. H. (2000). GMM with weak identification. Econometrica, 68(5), 1055-1096.
+
+
+
+## [B3.] Expected Maximization Algorithm (EM)
+
+## Example 4
+
+
+
+```R
+# Examples
+
+
+
+```
+
+
+## References
+
 - Wu, C. J. (1983). On the convergence properties of the EM algorithm. The Annals of statistics, 95-103.
+
 
 # Reading List
 
