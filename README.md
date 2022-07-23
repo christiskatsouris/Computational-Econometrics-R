@@ -148,7 +148,7 @@ In practise, the additional condition of having the weight vector being between 
 
 - The main idea of the the 'Genetic Algorithm' is that it considers a fitness function. The algorithm begins with a population of N "individuals" (nodes or stocks in the financial network) with DNA or weights $w_i$ for i = 1,...,N. The fitness of each individual is evaluated based on a fitness function in a manner bearing certain analogies to the exchange of DNA in biological organisms. Heuristically, the algorithm converges for a large number of replications which results to the optimal vector of weights $\hat{w}_i$ (see, Halbert White, (1989)).  
 
-- Notice that for convex problems any local optimum is also a global optimum. However, in non-convex problems this is might not be the case. For example, when incorporating the eigenvalue centrality in the optimization problem further complexities, with respect to the convergence of a suitable algirithm, occur which we will need to check. 
+- Notice that for convex problems any local optimum is also a global optimum. However, in non-convex problems this is might not be the case. For example, when incorporating the eigenvalue centrality in the optimization problem further complexities, with respect to the convergence of a suitable algirithm, occur which we will need to check. The LASSO shrinkage for portfolio optimization can be also employed.  
 
 ```R
 
