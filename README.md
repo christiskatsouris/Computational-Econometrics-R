@@ -1,8 +1,12 @@
 # Computational-Econometrics-R
 
-A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022). 
+> A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022). 
 
-$\textbf{Motivation:}$ The main philosophy with this course is to combine traditional statistical learning methods such as the portfolio optimization problem with computational and numerical methods such as the Generalized Method of Momements which are useful for econometric modelling of large datasets. Further extensions can be also considered within a high dimensional environment although these aspects correspond to a course on 'Advanced Computational Econometrics' (to be developed in the future).
+$\textbf{Course Overview:}$ 
+
+The main philosophy with this course is to combine traditional statistical learning methods such as the portfolio optimization problem with computational and numerical methods such as the Generalized Method of Momements which are useful for econometric modelling of large datasets. The module will introduce state-of-the-art techniques and programming software capabilities for each theme covered by the Syllabus. 
+
+> Further extensions can be also considered within a high dimensional environment although these aspects correspond to a course on 'Advanced Computational Econometrics' (to be developed in the future).
 
 ## R Computing/Parallelism practises  
 
