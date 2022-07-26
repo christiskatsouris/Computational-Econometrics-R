@@ -4,7 +4,7 @@
 
 $\textbf{Course Overview:}$ 
 
-The main philosophy with this course is to combine traditional statistical learning methods such as the portfolio optimization problem with computational and numerical methods such as the Generalized Method of Momements which are useful for econometric modelling of large datasets. The module will introduce state-of-the-art techniques and programming software capabilities for each theme covered by the Syllabus. 
+The main philosophy with this course is to combine traditional statistical learning methods such as the portfolio optimization problem with computational and numerical methods such as the Generalized Method of Momements which are useful for econometric modelling of large datasets. The module will introduce state-of-the-art techniques and programming software capabilities for each theme covered in the Syllabus. 
 
 > Further extensions can be also considered within a high dimensional environment although these aspects correspond to a course on 'Advanced Computational Econometrics' (to be developed in the future).
 
