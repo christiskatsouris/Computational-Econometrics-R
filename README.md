@@ -2,7 +2,7 @@
 
 > A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022). 
 
-$\textbf{Course Overview:}$ 
+### Course Overview: 
 
 The main philosophy with this course is to combine traditional statistical learning methods such as the portfolio optimization problem with computational and numerical methods such as the Generalized Method of Momements which are useful for econometric modelling of large datasets. The module will introduce state-of-the-art techniques and programming software capabilities for each theme covered in the Syllabus. 
 
