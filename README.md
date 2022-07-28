@@ -1,6 +1,6 @@
 # Computational-Econometrics-R
 
-> A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022). 
+Teaching page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022). 
 
 ### Course Overview: 
 
