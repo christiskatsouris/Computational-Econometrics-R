@@ -297,8 +297,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 <img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/graph.jpg" width="650"/>
 
 
-> 
-# Density Plots of Portfolio Risk based on a forecasting scheme with a rolling window of fixed length, $w = 250$, based on an out-of-sample sequence of length $n - 100$. The particular, choice was made heuristically by considering that the aim of our study is for the rolling window to be able to capture periods of increased interdependencies in the financial newtwork. 
+>  Density Plots of Portfolio Risk based on a forecasting scheme with a rolling window of fixed length, $w = 250$, based on an out-of-sample sequence of length $n = 100$. The particular, choice was made heuristically by considering that the aim of our study is for the rolling window to be able to capture periods of increased interdependencies in the financial newtwork. 
 
 
 ### Remarks
