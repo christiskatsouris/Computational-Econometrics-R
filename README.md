@@ -8,7 +8,7 @@ The main philosophy with this course is to combine traditional statistical learn
 
 > Further extensions can be also considered within a high dimensional environment although these aspects correspond to a course on 'Advanced Computational Econometrics' (to be developed in the future).
 
-## R Computing/Parallelism practises  
+## R Parallel Programming Techniques  
 
 In many of the following econometric methods (especially when considering high-dimensional inference problems or when implementing resampling methodologies such as permutation or bootstrap testing) with Econometric/Statistical Programming Software (such as R, Matlab or Stata) in order to reduce the execution time requires to apply parallel programming techniques and/or distributing tasks using HPC.   
 
