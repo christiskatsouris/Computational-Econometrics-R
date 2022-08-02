@@ -262,6 +262,7 @@ A proof of the above equivalence with respect to the closed-form solution of the
 - Avella-Medina, M., Battey, H. S., Fan, J., & Li, Q. (2018). Robust estimation of high-dimensional covariance and precision matrices. Biometrika, 105(2), 271-284.
 - Chen, J., Dai, G., & Zhang, N. (2020). An application of sparse-group lasso regularization to equity portfolio optimization and sector selection. Annals of Operations Research, 284(1), 243-262.
 - Chi, Y., Lu, Y. M., & Chen, Y. (2019). Nonconvex optimization meets low-rank matrix factorization: An overview. IEEE Transactions on Signal Processing, 67(20), 5239-5269.
+- David, R., & David, S. M. (2015). Statistics and Data Analysis for Financial Engineering: with R examples.
 - Ledoit, O., & Wolf, M. (2022). Quadratic shrinkage for large covariance matrices. Bernoulli, 28(3), 1519-1547.
 - Tyler, D. E., & Yi, M. (2020). Lassoing eigenvalues. Biometrika, 107(2), 397-414.
 - Zhao, Z., Ledoit, O., & Jiang, H. (2020). Risk reduction and efficiency increase in large portfolios: leverage and shrinkage. University of Zurich, Department of Economics, Working Paper, (328).
@@ -303,7 +304,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 ### Remarks
 
-- As we observe from the above diagram there seem to be some difference with respect to the distribution of portfolio risk when considering the eigenvalue versus the page-rank centrality for instance. However, due to the finite sample used to obtain the out-of-sample sequences, care should be taken when interpreting these results. Thus, a suitable parallelism approach is necessary in order to obtain the distribution of portfolio risk based on a large sample, which should indicate a symmetric pattern. 
+- As we observe from the above figure there is an indication that the distribution of portfolio risk (for portfolio risk in this example we refer to the defintion of the quadratic form given by Fan et al. (2015)) when considering excluding central nodes based on the eigenvalue versus the page-rank centrality is less skewed. However, due to the small sample size that we employed to obtain the out-of-sample forecast sequences, these results should be interpreted with this fact into consideration. In other words, in order to improve the approximation to the corresponding asymptotic distribution of portfolio risk (using the covariance-type matrix proposed by  [Katsouris (2021)](https://arxiv.org/abs/2112.12031), which is based on heavy-tailed and dependent elements), we should consider a larger sample size, based on the use of a suitable parallel programming technique.
 
 - Another aspect is the construction of the covariance matrix, for instance under the assumption of Gaussianity data versus based on heavy-tailed time series. In addition, when considering the risk matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031) has 'additional' dependence features (e.g., dependence across rows and colummns) that will need further examination. Furthermore, the estimation procedure has significant higher computational complexity, especially within a rolling window scheme, when the covariance matrix is replaced with the Gamma matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031). The reason is that the particular quantile connectedness matrix has a pairwise regression-based covariance-type structure. Therefore, some form of parallelism is required to obtain robust estimation results. 
 
@@ -315,8 +316,9 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 ```
 
-### References
+## References
 - Chou, P. H., & Zhou, G. (2006). Using Bootstrap to Test Portfolio Efficiency. Annals of Economics & Finance, 7(2).
+- Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
 - Post, T. (2003). Empirical tests for stochastic dominance efficiency. The Journal of
 Finance, 58(5):1905-1931.
 - Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
