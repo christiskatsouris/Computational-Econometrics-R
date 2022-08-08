@@ -244,7 +244,7 @@ A proof of the above equivalence with respect to the closed-form solution of the
 
 ## References
 
-- Katsouris, C. (2021). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
+- Katsouris, C. (2021a). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
 - Maillet, B., Tokpavi, S., & Vaucher, B. (2015). Global minimum variance portfolio optimisation under some model risk: A robust regression-based approach. European Journal of Operational Research, 244(1), 289-299.
 - Brandt, M. W., & Santa‐Clara, P. (2006). Dynamic portfolio selection by augmenting the asset space. The journal of Finance, 61(5), 2187-2217.
 - Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
@@ -306,6 +306,11 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 - Another aspect is the construction of the covariance matrix, for instance under the assumption of Gaussianity data versus based on heavy-tailed time series. In addition, when considering the risk matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031) has 'additional' dependence features (e.g., dependence across rows and colummns) that will need further examination. Furthermore, the estimation procedure has significant higher computational complexity, especially within a rolling window scheme, when the covariance matrix is replaced with the Gamma matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031). The reason is that the particular quantile connectedness matrix has a pairwise regression-based covariance-type structure. Therefore, some form of parallelism is required to obtain robust estimation results. 
 
+- Lastly, the presence of finite-sample bimodality (as seen from the figures above), we conjecture that this phenomenon occurs due to the presence of nonlinear cointegrating 'random objects' - that is, we introduce the idea of 'random regression objects' since the elements of the covariance-type matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031) are constructed from systems of pairwise (nodewise) quantile predictive regressions, and thus the risk matrix has entries with highly dependent and heavy-tailed data. In particular, the properties of covariance matrices with heavy-tailed data are discussed in the literature by [Professor Richard A. Davis](http://www.stat.columbia.edu/~rdavis/technical_reports.html) and his co-authors. Although we do not examine yet a unified framework towards random objects cointegrating regressions in a similar manner as Frecher regressions (to do in the future), we initially focus on exploring further the aformentioned properties both in the studies of [Katsouris (2021a)](https://arxiv.org/abs/2112.12031) and Katsouris (2021b). Although, we haven't formally investigated yet whether the presence of biomodality is due to heavy-tailedness or due to highly dependent data, because in order to do that we will need to first reconsider the notion of 'network dependence', and then via asymptotic theory analysis and related simulations, evaluate which effects stochastically dominate the other, according to the recent working paper Wang and Phillips (2022) titled: "A General Limit Theory for Nonlinear Functionals of Nonstationary Time Series", which has been submitted to the Annals of Statistics: 
+
+> Such bimodality is known to arise with self-normalized statistics and t ratios in other contexts, especially in the presence of heavy tailed data where individual large draws can dominate both the numerator and the denominator in the ratio (see Logan et al (1972)[16] and Fiorio et al (2010)[10]). The explanation of the phenomena in the present setting is unrelated to heavy tails but is instead related to strong dependence in the data (Remark 2.3).
+
+
 
 ```R
 
@@ -317,8 +322,9 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 ## References
 - Chou, P. H., & Zhou, G. (2006). Using Bootstrap to Test Portfolio Efficiency. Annals of Economics & Finance, 7(2).
 - Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
-- Post, T. (2003). Empirical tests for stochastic dominance efficiency. The Journal of
-Finance, 58(5):1905-1931.
+- Post, T. (2003). Empirical tests for stochastic dominance efficiency. The Journal of Finance, 58(5):1905-1931.
+- Katsouris, C. (2021a). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
+- Katsouris, C. (2021b). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. University of Southampton. orking paper.  
 - Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 
 ## Self-Assesment Questions:
