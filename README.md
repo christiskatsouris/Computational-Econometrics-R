@@ -327,9 +327,9 @@ Therefore, in order to be able to evaluate the effectiveness of the portfolio op
 - Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
 - Katsouris, C. (2021a). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
 - Katsouris, C. (2021b). A Graph Topology Measure for a Time Series Regression-based Covariance Matrix with Tail Estimates. University of Southampton. Working paper. 
+- Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 - Post, T. (2003). Empirical tests for stochastic dominance efficiency. The Journal of Finance, 58(5):1905-1931.
 - Phillips, P.C.B. (2006). A remark on bimodality and weak instrumentation in structural equation estimation. Econometric Theory, 22(5), 947-960.
- - Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 
 ## Self-Assesment Questions:
 
