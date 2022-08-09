@@ -29,13 +29,13 @@ Now 'parallel programming' techniques can be employed diffently depending on the
 
 
 On Extending R with C++ Capabilities: 
-- Eddelbuettel, D., & Balamuta, J. J. (2018). Extending R with C++: A brief introduction to Rcpp. The American Statistician, 72(1), 28-36.
+- Eddelbuettel, D., & Balamuta, J. J. (2018). [Extending R with C++: A brief introduction to Rcpp. The American Statistician, 72(1), 28-36.](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375990)
 
 In practise the understanding of some important computing tools and techniques can assist in improving algorithmic efficiency and reduce the execution time. A classic book which covers related topics is:
 
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 
-Lastly, once a statistical/econometrics project containing R code which can be compiled has matured to the point of sharing it with collaborators or using it within a parallel computing environment, then the ideal way forward is to embed the code within an R package (see,  Eddelbuettel and Balamuta (2018)).     
+Lastly, once a statistical/econometrics project containing R code which can be compiled has matured to the point of sharing it with collaborators or using it within a parallel computing environment, then the ideal way forward is to embed the code within an R package (see,  [Eddelbuettel and Balamuta (2018)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375990)).     
 
 ## Random Generating Numbers 
 
