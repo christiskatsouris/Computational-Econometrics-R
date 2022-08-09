@@ -312,7 +312,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 > Such bimodality is known to arise with self-normalized statistics and t ratios in other contexts, especially in the presence of heavy tailed data where individual large draws can dominate both the numerator and the denominator in the ratio (see Logan et al (1972)[16] and Fiorio et al (2010)[10]). The explanation of the phenomena in the present setting is unrelated to heavy tails but is instead related to strong dependence in the data (Remark 2.3, Wang and Phillips (2022)).
 
-* The asymptotic theory for distributions of ratios of random variables is indeed an interesting aspect which has important implications for Survey Sampling theory. Furthermore, a remark on biomdality and weak instrumentation in structural equation modeling is given by [Phillips P.C.B (2006)](https://www.cambridge.org/core/journals/econometric-theory/article/remark-on-bimodality-and-weak-instrumentation-in-structural-equation-estimation/2C674680596B807FA356474AAC9C13AD).
+* The asymptotic theory for distributions of ratios of random variables is indeed an interesting aspect which has important implications for Survey Sampling theory. Furthermore, a remark on bimodality and weak instrumentation in structural equation modeling is given by [Phillips P.C.B (2006)](https://www.cambridge.org/core/journals/econometric-theory/article/remark-on-bimodality-and-weak-instrumentation-in-structural-equation-estimation/2C674680596B807FA356474AAC9C13AD).
 
 
 ```R
