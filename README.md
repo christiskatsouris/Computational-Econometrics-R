@@ -290,9 +290,9 @@ While under the alternative hypothesis the space of interest is given by
 $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 \in (0,1) \ \text{with} \ x_1 \leq x_2.$$
 
 
-## Remarks:
+## Example 2
 
-- Notice that in order to be able to evaluate the effectiveness of the portfolio optimization problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
+Therefore, in order to be able to evaluate the effectiveness of the portfolio optimization problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
 
 <img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/graph.jpg" width="650"/>
 
@@ -394,7 +394,7 @@ given the observations $( y_t : t = 1,...,n )$ and some positive definite matrix
 
 $$\text{log det} \ \left( n^{-1} \sum_{t=1}^n \left( y_n - g_t (b) \right)^{\prime} \left( y_n - g_t (b) \right) \right).$$
 
-## Example 2
+## Example 3
 
 Consider the MDE of an AR(1) model using R. 
 
@@ -469,7 +469,7 @@ $$\hat{\theta}_n = \underset{  \theta \in \Theta  }{ \mathsf{argmin}  }  \ \ [ g
 In other words, the statistical geometry of the GMM estimator minimizes the distance of sample counterparts to popultation parameters based on the underline orthogonality conditions and the distance matrix W.  
 
 
-## Example 3
+## Example 4
 
 ```R
 
@@ -571,7 +571,7 @@ $$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \
 
 ## [B3]. Expected Maximization Algorithm (EM)
 
-## Example 4
+## Example 5
 
 
 
