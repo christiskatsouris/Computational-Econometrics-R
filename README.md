@@ -323,6 +323,7 @@ Therefore, in order to be able to evaluate the effectiveness of the portfolio op
 ```
 
 ## References
+- Chetverikov, D., Wilhelm, D., & Kim, D. (2021). An adaptive test of stochastic monotonicity. Econometric Theory, 37(3), 495-536.
 - Chou, P. H., & Zhou, G. (2006). Using Bootstrap to Test Portfolio Efficiency. Annals of Economics & Finance, 7(2).
 - Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
 - Katsouris, C. (2021a). Optimal Portfolio Choice and Stock Centrality for Tail Risk Events. [arXiv preprint:2112.12031](https://arxiv.org/abs/2112.12031)
