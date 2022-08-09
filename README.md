@@ -220,7 +220,7 @@ optimal_weights_function_GA <- function( N = N, Sigma = Sigma )
 
 ```
 
-## Remarks
+## Remarks:
 
 - Further investment strategies can be considered, however the optimization problem has additional computational burden. Overall, we consider the optimization problem under investigation to be a learning problem with the optimal weights being random draws from the parameter space of portfolio weights such as  
 
