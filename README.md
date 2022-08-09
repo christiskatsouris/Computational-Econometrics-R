@@ -331,6 +331,7 @@ Therefore, in order to be able to evaluate the effectiveness of the portfolio op
 - Linton, O., Post, T., and Whang, Y.-J. (2014). Testing for the stochastic dominance efficiency of a given portfolio. The Econometrics Journal, 17(2):S59-S74.
 - Post, T. (2003). Empirical tests for stochastic dominance efficiency. The Journal of Finance, 58(5):1905-1931.
 - Phillips, P.C.B. (2006). A remark on bimodality and weak instrumentation in structural equation estimation. Econometric Theory, 22(5), 947-960.
+- Wang and Phillips (2022). A General Limit Theory for Nonlinear Functionals of Nonstationary Time Series. Working paper. 
 
 ## Self-Assesment Questions:
 
