@@ -290,7 +290,7 @@ While under the alternative hypothesis the space of interest is given by
 $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 \in (0,1) \ \text{with} \ x_1 \leq x_2.$$
 
 
-### Remarks
+## Remarks:
 
 - Notice that in order to be able to evaluate the effectiveness of the portfolio optimization problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
 
@@ -300,7 +300,7 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 >  Density Plots of Portfolio Risk based on a forecasting scheme with a rolling window of fixed length, $w = 250$, and an out-of-sample sequence of length $n = 100$. The particular choice was made heuristically by considering that the aim of our study is for the rolling window to be able to capture periods of increased interdependencies in the financial newtwork. Related aspect to examine is the optimal choice of the bandwidth parameter but we leave this aspect for future research. 
 
 
-### Remarks
+## Remarks:
 
 - The above figure provides a visual representation of the distribution of portfolio risk (for portfolio risk in this example we refer to the defintion of the quadratic form given by Fan et al. (2015)), when considering excluding central nodes based on different centrality measures, although such 'differences' have to be verified using a formal statistical methodology (e.g., such as a stochastic dominance test). In particular, due to the small sample size that we employed to obtain the out-of-sample forecast sequences, these results should be interpreted with this fact into consideration. In other words, in order to improve the approximation to the corresponding asymptotic distribution of portfolio risk (using the covariance-type matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), which is based on heavy-tailed and dependent elements), we should consider a larger sample size, using for instance a suitable parallel programming technique.
 
