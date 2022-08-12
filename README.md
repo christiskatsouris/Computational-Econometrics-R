@@ -608,13 +608,17 @@ $\textbf{[4]}$ White, H. (1996). Estimation, inference and specification analysi
 
 $\textbf{[5]}$ Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
 
-$\textbf{[6]}$ Chen, X. (2007). Large sample sieve estimation of semi-nonparametric models. Handbook of Econometrics, 6, 5549-5632.
+$\textbf{[6]}$ Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
 
-$\textbf{[7]}$ Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
+## Advanced Topics:
 
-$\textbf{[8]}$ Zaslavski, A. J. (2010). Optimization on metric and normed spaces (Vol. 44). Springer Science & Business Media.
+$\textbf{[1]}$ Corbae, D., Stinchcombe, M. B., & Zeman, J. (2009). An introduction to Mathematical Analysis for Economic Theory and Econometrics. Princeton University Press.
 
-$\textbf{[9]}$ Corbae, D., Stinchcombe, M. B., & Zeman, J. (2009). An introduction to mathematical analysis for economic theory and econometrics. Princeton University Press.
+$\textbf{[2]}$ Chen, X. (2007). Large Sample Sieve Estimation of Semi-nonparametric Models. Handbook of Econometrics, 6, 5549-5632.
+
+$\textbf{[3]}$ Zaslavski, A. J. (2010). Optimization on Metric and Normed spaces (Vol. 44). Springer Science & Business Media.
+
+$\textbf{[4]}$ Kushner, H., & Yin, G. G. (2003). Stochastic Approximation and Recursive Algorithms and Applications (Vol. 35). Springer Science & Business Media.
 
 
 # Learning Outcomes
