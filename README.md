@@ -600,25 +600,25 @@ $$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \
 
 $\textbf{[1]}$ Abadir, K. M., & Magnus, J. R. (2005). Matrix algebra (Vol. 1). Cambridge University Press.
 
-$\textbf{[2]}$ Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
+$\textbf{[2]}$ Hayashi, F. (2001). Econometrics. Princeton University Press.
 
-$\textbf{[3]}$ Hayashi, F. (2001). Econometrics. Princeton University Press.
+$\textbf{[3]}$ White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge University Press.
 
-$\textbf{[4]}$ White, H. (1996). Estimation, inference and specification analysis (No. 22). Cambridge University Press.
+$\textbf{[4]}$ Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
 
-$\textbf{[5]}$ Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
-
-$\textbf{[6]}$ Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
+$\textbf{[5]}$ Boyd, S., Boyd, S. P., & Vandenberghe, L. (2004). Convex optimization. Cambridge University Press.
 
 ## Advanced Topics:
 
 $\textbf{[1]}$ Corbae, D., Stinchcombe, M. B., & Zeman, J. (2009). An introduction to Mathematical Analysis for Economic Theory and Econometrics. Princeton University Press.
 
-$\textbf{[2]}$ Chen, X. (2007). Large Sample Sieve Estimation of Semi-nonparametric Models. Handbook of Econometrics, 6, 5549-5632.
+$\textbf{[2]}$ Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
 
-$\textbf{[3]}$ Zaslavski, A. J. (2010). Optimization on Metric and Normed spaces (Vol. 44). Springer Science & Business Media.
+$\textbf{[3]}$ Chen, X. (2007). Large Sample Sieve Estimation of Semi-nonparametric Models. Handbook of Econometrics, 6, 5549-5632.
 
-$\textbf{[4]}$ Kushner, H., & Yin, G. G. (2003). Stochastic Approximation and Recursive Algorithms and Applications (Vol. 35). Springer Science & Business Media.
+$\textbf{[4]}$ Zaslavski, A. J. (2010). Optimization on Metric and Normed spaces (Vol. 44). Springer Science & Business Media.
+
+$\textbf{[5]}$ Kushner, H., & Yin, G. G. (2003). Stochastic Approximation and Recursive Algorithms and Applications (Vol. 35). Springer Science & Business Media.
 
 
 # Learning Outcomes
