@@ -326,6 +326,7 @@ Therefore, in order to be able to evaluate the effectiveness of the portfolio op
 
 ## References
 - Chetverikov, D., Wilhelm, D., & Kim, D. (2021). An adaptive test of stochastic monotonicity. Econometric Theory, 37(3), 495-536.
+- Chen, L. Y., & Lee, S. (2018). Exact computation of GMM estimators for instrumental variable quantile regression models. Journal of Applied Econometrics, 33(4), 553-567.
 - Chou, P. H., & Zhou, G. (2006). Using Bootstrap to Test Portfolio Efficiency. Annals of Economics & Finance, 7(2).
 - Fan, J., Liao, Y., & Shi, X. (2015). Risks of large portfolios. Journal of Econometrics, 186(2), 367-387.
 - Firpo, S., Galvao, A. F., Pinto, C., Poirier, A., & Sanroman, G. (2021). GMM quantile regression. Journal of Econometrics.
@@ -336,9 +337,10 @@ Therefore, in order to be able to evaluate the effectiveness of the portfolio op
 - Phillips, P.C.B. (2006). A remark on bimodality and weak instrumentation in structural equation estimation. Econometric Theory, 22(5), 947-960.
 - Wang and Phillips (2022). A General Limit Theory for Nonlinear Functionals of Nonstationary Time Series. Cowles Foundation Discussion Paper No. 2336. 
 
+
 ## Self-Assesment Questions:
 
-1. What are the main econometric challenges when optimizing large portfolios?
+1. What are the main econometric challenges when optimizing large portfolios? Explain the related issues with the well-known term 'curse of dimensionality'.
 
 2. Can we construct an optimization function that relates centrality measures with risk measures? In particular, an estimation exercise which can shed light on computational aspects related to such a convex optimization approach is to implement an out-of-sample forecasting scheme (e.g., with a moving window of fixed length) based on the GMVP where penalization of central nodes is applied sequentially by removing one-central node at a time from the graph. The above computational problem can be also done by varying the centrality measures (see, this [page](https://github.com/christiskatsouris/Network-Analysis-R) for definitions) as a robustness check.    
 3. How does the dependence structure of the risk matrix affect the porfolio optimization problem. Think for example the variance-covariance matrix versus the correlation matrix. What about if we replace the variance-covariance matrix with a risk matrix that measures tail dependency and therefore it corresponds to a covariance-type matrix based on heavy-tailed data with possibe high dependence?  
