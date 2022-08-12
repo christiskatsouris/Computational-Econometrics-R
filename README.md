@@ -641,3 +641,7 @@ Further mathematical/theoretical applications related to Numerical Analysis, Sci
 
 See: https://www.mendeley.com/guides/web-citation-guide/
 
+# Historical Background
+
+$\textbf{Jack Carl Kiefer}$ (January 25, 1924 – August 10, 1981) was an American mathematical statistician at Cornell University (1952 to 1979) and the University of California Berkeley (1979 to 1981). His research interests included the optimal design of experiments, which was his major research area, as well as a wide variety of topics in mathematical statistics. Much of Kiefer's research was on the design of experiments; the American Statistician obituary calls him "undoubtedly the foremost worker in optimal experimental design". However, he also made significant contributions to other areas of statistics and optimization, including the introduction of golden section search (his master's thesis work) the Dvoretzky–Kiefer–Wolfowitz inequality and the Bahadur-Ghosh-Kiefer representation (with R. R. Bahadur and J. K. Ghosh) (Source: Wikipedia).
+
