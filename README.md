@@ -294,12 +294,12 @@ $$H_1 : F_{Y|X}(y | x_1 ) \leq F_{Y|X}(y | x_2) \ \text{for some} \ y, x_1, x_2 
 
 Therefore, in order to be able to evaluate the effectiveness of the portfolio optimization problem and the corresponding portfolio returns induced by a risk matrix such as the financial connectedness matrix proposed by [Katsouris (2021)](https://arxiv.org/abs/2112.12031), we might also be interested to examine the robustness of the test under the distribution invariance assumption, or under changes in the network topology of nodes in the graph.
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/eigenvector_graph.jpg" width="650"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/graph.jpg" width="650"/>
 
 
 >  Density Plots of Portfolio Risk based on a forecasting scheme with a rolling window of fixed length, $w = 250$, and an out-of-sample sequence of length $n = 100$. The particular choice was made heuristically by considering that the aim of our study is for the rolling window to be able to capture periods of increased interdependencies in the financial newtwork. Related aspect to examine is the optimal choice of the bandwidth parameter but we leave this aspect for future research. 
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/egraph.jpg" width="650"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/eigenvector_graph.jpg" width="550"/>
 
 ## Remarks:
 
