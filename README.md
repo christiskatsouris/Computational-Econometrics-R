@@ -325,13 +325,18 @@ Therefore, in order to be able to evaluate the effectiveness of the portfolio op
 
 - Lastly, we point-out that the framework proposed in the studies of Katsouris (2021a), discusses some important ideas with applications to other related fields as well. Specifically, the proposed algorithmic procedure of node centrality penalization (e.g., sequential node removal) which induces reduction of the tail dependency in the graph - without changing its main structure, is also related to the so-called persistent data structure as well as to persistent homology from the fields of computational topology and topological data analysis. These aspects indeed provide a motivation to examining more formally related estimation methodologies from the computational econometrics field for large data problems (see, Section [B] of this teaching page).    
 
+<p align="center">
 
-```R
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/results1.jpg" width="650"/>
 
-## Examples 
+</p>  
 
+<p align="center">
 
-```
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/results2.jpg" width="650"/>
+
+</p>  
+
 
 ## References
 - Chetverikov, D., Wilhelm, D., & Kim, D. (2021). An adaptive test of stochastic monotonicity. Econometric Theory, 37(3), 495-536.
