@@ -564,7 +564,7 @@ A useful application of computational econometrics beyond its use in portfolio o
 
 <p align="center">
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures.jpg" width="650"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures.jpg" width="750"/>
 
 </p>  
 
