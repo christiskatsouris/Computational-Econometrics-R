@@ -571,15 +571,16 @@ A useful application of computational econometrics beyond its use in portfolio o
 
 <p align="center">
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures1.jpg" width="750"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures1.jpg" width="710"/>
 
 </p>  
 
 <p align="center">
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/erisk_measures2.jpg" width="750"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures2.jpg" width="710"/>
 
 </p>  
+
 ## Assignment 2
 
 Consider the GMM estimation for the econometric specification that corresponds to the quantile regression (QR) estimator as given by the following optimization function: 
