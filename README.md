@@ -560,7 +560,13 @@ Gradian eval. =  NA
 
 ```
 
-A useful application of computational econometrics beyond its use in portfolio optimization and GMM estimation, is the use of these algorithms in estimating quantile regression models, which has been pioneered by the seminar work of Koenker Roger and Zhijie Xiao. Quantile regression models have plethora of applications, some of these include: for instance when the econometrician is interested in causal inference based on conditional quantile functions as well as when estimating risk measures. A revision note on risk measures can be found here.
+A useful application of computational econometrics beyond its use in portfolio optimization and GMM estimation, is the use of these algorithms in estimating quantile regression models, which has been pioneered by the seminar work of Koenker Roger and Zhijie Xiao. Quantile regression models have plethora of applications, some of these include: for instance when the econometrician is interested in causal inference based on conditional quantile functions as well as when estimating risk measures. A revision note on risk measures can be found below.
+
+<p align="center">
+
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures.jpg" width="650"/>
+
+</p>  
 
 ## Assignment 2
 
