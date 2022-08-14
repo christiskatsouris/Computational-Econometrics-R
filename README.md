@@ -606,6 +606,7 @@ $$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \
 - Firpo, S., Galvao, A. F., Pinto, C., Poirier, A., & Sanroman, G. (2021). GMM quantile regression. Journal of Econometrics.
 - Hansen, L. (1982): “Large Sample Properties of Generalized Method of Moments Estimators,” Econometrica.
 - Hansen, B. E., & Lee, S. (2021). Inference for iterated GMM under misspecification. Econometrica, 89(3), 1419-1447.
+- Kato, K. (2009). Asymptotics for argmin processes: Convexity arguments. Journal of Multivariate Analysis, 100(8), 1816-1829.
 - Lof, M. (2014). GMM Estimation with Non‐causal Instruments under Rational Expectations. Oxford Bulletin of Economics and Statistics, 76(2), 279-286.
 - Park, S. K., Ahn, S. K., & Cho, S. (2011). Generalized method of moments estimation for cointegrated vector autoregressive models. Computational statistics & data analysis, 55(9), 2605-2618.
 - Stock, J. H., & Wright, J. H. (2000). GMM with weak identification. Econometrica, 68(5), 1055-1096.
