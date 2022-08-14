@@ -586,7 +586,7 @@ A useful application of computational econometrics beyond its use in portfolio o
 
 </p>  
 
-> Notice that the problem of 'Statistical Elicitability' arises when we consider the point forecast of risk measures such as the Expected Shortfall, Value at Risk, and other related risk management measures. Some related discussion can be found in the literature. Expain what are the main challenges when estimating such conditional dependent risk measures as well as proposed solutions to ensure that econometric identification is optimally achieved? 
+> Notice that the problem of 'Statistical Elicitability' arises when we consider the point forecast of risk measures such as the Expected Shortfall, Value at Risk, and other related risk management measures. Related discussion can be found in the literature. Expain what are the main challenges when estimating such conditional dependent risk measures as well as proposed solutions to ensure that econometric identification is optimally achieved? 
 
 ## Assignment 2
 
