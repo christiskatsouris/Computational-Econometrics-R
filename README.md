@@ -570,21 +570,23 @@ A useful application of computational econometrics beyond its use in portfolio o
 
 <p align="center">
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures.jpg" width="750"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures.jpg" width="625"/>
 
 </p>  
 
 <p align="center">
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures1.jpg" width="710"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures1.jpg" width="625"/>
 
 </p>  
 
 <p align="center">
 
-<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures2.jpg" width="710"/>
+<img src="https://github.com/christiskatsouris/Computational-Econometrics-R/blob/main/Notes/risk_measures2.jpg" width="625"/>
 
 </p>  
+
+> The problem of Elicitability arises when we consider the point forecast of risk measures such as the Expected Shortfall, Value at Risk, and other related risk management measures.
 
 ## Assignment 2
 
