@@ -394,7 +394,6 @@ The increase in computational power and the capacity to compute the asset alloca
 - Tikhonov, A. N. (1963). On the solution of ill-posed problems and the method of regularization. In Doklady Akademii Nauk (Vol. 151, No. 3, pp. 501-504). Russian Academy of Sciences.
 
 
-
 # [B]. Iterative Simulation and Estimation Methodologies
 
 There are various iterative simulation techniques depending on the statistical inference problem under examination. A revision on resampling and Monte Carlo Methods from the statistics literature can be found in the [Notes](https://github.com/christiskatsouris/Computational-Econometrics-R/tree/main/Notes) folder of this teaching page. In this Section, we focus on estimation and computational algorithms when considering advanced econometric models based on economic theory. Specifically, we discuss the Minimum Distance Estimation (MDE) method and the Generalized Method of Moments (GMM).
@@ -608,8 +607,8 @@ $$\mathbf{E} \bigg[ \tau - \mathbf{1} \bigg( Y \leq X^{\prime} \hat{ \beta } ( \
 - Kato, K. (2009). Asymptotics for argmin processes: Convexity arguments. Journal of Multivariate Analysis, 100(8), 1816-1829.
 - Lof, M. (2014). GMM Estimation with Non‐causal Instruments under Rational Expectations. Oxford Bulletin of Economics and Statistics, 76(2), 279-286.
 - Park, S. K., Ahn, S. K., & Cho, S. (2011). Generalized method of moments estimation for cointegrated vector autoregressive models. Computational statistics & data analysis, 55(9), 2605-2618.
+- Pesaran, M. H., & Yamagata, T. (2008). Testing slope homogeneity in large panels. Journal of econometrics, 142(1), 50-93.
 - Stock, J. H., & Wright, J. H. (2000). GMM with weak identification. Econometrica, 68(5), 1055-1096.
-
 
 ## [B3]. Expected Maximization Algorithm (EM)
 
