@@ -367,6 +367,20 @@ Following the following steps construct a bootstrap resampling simulation study 
 - Step 3: Compare the convergence properties of the optimization algorithm and the performance of the optimal portfolio using (i) the variance-covariance matrix and (ii) using a GARCH-based covariance matrix estimation method. 
 - Step 4: Repeat the procedure B times for the bootstrap step and obtain the empirical variance and MSE in order to compare the different optimization methods and the two covariance matrix estimation methodologies mentioned in Step 3.
 
+## Assignment 2
+
+The second assignment focus on model selection for high dimensional vectors. First, we simulate data which we use to perform best subset selection. 
+
+(i) Use the rnorm() function to generate a predictor X of length n = 250, as well as noise vector e of lenght n = 250. 
+
+(ii) Generate a response vector Y of length n = 250 according the following model 
+
+$$ Y = \beta_0 + \beta_1 X^2 + \beta_3 X^3 + \epsilon$$ 
+
+
+
+
+
 
 ## [A3]. Principal Component Analysis 
 
