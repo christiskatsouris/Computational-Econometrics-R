@@ -377,9 +377,7 @@ The second assignment focus on model selection for high dimensional vectors. Fir
 
 $$ Y = \beta_0 + \beta_1 X^2 + \beta_3 X^3 + \epsilon$$ 
 
-
-
-
+(iii) Use the regsubsets() function to perform best subset selection in order to choose the best model containing the predictors $X, X^2, ..., X^{10}$. Using the conventional model selection criteria such as $C_p$ BIC and the adjusted $R^2$ values find the best model.   
 
 
 ## [A3]. Principal Component Analysis 
