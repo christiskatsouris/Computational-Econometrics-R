@@ -379,6 +379,8 @@ $$ Y = \beta_0 + \beta_1 X^2 + \beta_3 X^3 + \epsilon$$
 
 (iii) Use the regsubsets() function to perform best subset selection in order to choose the best model containing the predictors $X, X^2, ..., X^{10}$. Using the conventional model selection criteria such as $C_p$ BIC and the adjusted $R^2$ values find the best model.   
 
+(iv) Now fit a lasso model to the simulated data, again using $X, X^2, ..., X^{10}$ as predictors. Additionally, use cross-validation to select the optimal value of the tuning parameter $\lambda$. In your answer include the accompanied figures such as the cross-validation error as a function of the tuning parameter.  
+
 
 ## [A3]. Principal Component Analysis 
 
