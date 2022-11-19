@@ -35,7 +35,12 @@ In practise the understanding of some important computing tools and techniques c
 
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 
-Lastly, once a statistical/econometrics project containing R code which can be compiled has matured to the point of sharing it with collaborators or using it within a parallel computing environment, then the ideal way forward is to embed the code within an R package (see,  [Eddelbuettel and Balamuta (2018)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375990)).     
+Lastly, once a statistical/econometrics project containing R code which can be compiled has matured to the point of sharing it with collaborators or using it within a parallel computing environment, then the ideal way forward is to embed the code within an R package (see,  [Eddelbuettel and Balamuta (2018)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375990)).   
+
+## High Performance Computing (HPC) Techniques with R  
+
+A solution for dealing with estimation and simulation problems which have high complexity and/or high executation time, it to run R scripts using an HPC application. In particular, this can be done through a console and by submitting a batch file of your code (via an R script) with the help of the job queue functionalities of an HPC facility.
+
 
 ## Random Generating Numbers 
 
