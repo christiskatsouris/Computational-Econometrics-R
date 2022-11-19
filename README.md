@@ -51,7 +51,6 @@ For example, a batch file with the following commands can be submitted via a con
 
 cd $PBS_O_WORKDIR/
 
-
 # Load R
 module load R/3.5.1
 module load gcc/6.1.0
@@ -60,7 +59,6 @@ module load gcc/6.1.0
 
 R --vanilla -f null_simple1.R > example.Rout &
 wait
-
 ```
 
 ## Random Generating Numbers 
