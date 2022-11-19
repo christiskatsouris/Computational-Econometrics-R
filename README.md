@@ -41,6 +41,27 @@ Lastly, once a statistical/econometrics project containing R code which can be c
 
 A solution for dealing with estimation and simulation problems which have high complexity and/or high executation time, it to run R scripts using an HPC application. In particular, this can be done through a console and by submitting a batch file of your code (via an R script) with the help of the job queue functionalities of an HPC facility.
 
+For example, a batch file with the following commands can be submitted via a concole such as [MobaXterm](https://mobaxterm.mobatek.net/). 
+
+```R
+
+#!/bin/bash
+#PBS -l walltime=4:00:00
+#PBS -l nodes=1:ppn=4
+
+cd $PBS_O_WORKDIR/
+
+
+# Load R
+module load R/3.5.1
+module load gcc/6.1.0
+
+#Calling the R script
+
+R --vanilla -f null_simple1.R > example.Rout &
+wait
+
+```
 
 ## Random Generating Numbers 
 
